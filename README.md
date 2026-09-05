@@ -50,29 +50,6 @@ A pesquisa global do cabeçalho direciona o termo pesquisado para o catálogo de
 
 O projeto possui uma área lateral de perfil e um modal detalhado. As informações são carregadas dos JSONs em `data/model_fundador/`, incluindo biografia, formação, interesses, tecnologias, forma de aprendizado, trajetória, experiências pessoais, disciplinas acadêmicas e estudos externos.
 
-## 🐍 Administração local com Python
-
-O projeto **não utiliza Java, Spring Boot ou banco de dados nesta etapa**.
-
-O Python é utilizado como uma camada administrativa local e leve. O painel pode ser iniciado com:
-
-```text
-INICIAR_ADMIN.bat
-```
-
-Depois, acesse o endereço mostrado no terminal. O servidor administrativo escuta somente em `127.0.0.1`, portanto não foi pensado para publicação na internet.
-
-O painel permite:
-
-- adicionar projetos;
-- remover projetos;
-- criar categorias quando necessário;
-- atualizar os índices JSON;
-- criar backups automáticos antes das alterações;
-- exigir um token temporário exibido no terminal.
-
-Isso oferece uma proteção básica para um painel que deve funcionar apenas localmente. **Não é uma solução de segurança para produção ou para exposição pública.**
-
 ## 📂 Estrutura principal
 
 ```text
@@ -97,7 +74,6 @@ MSA Projects/
 ├── sobre.html
 ├── evolucao.html
 ├── INICIAR_FRONTEND.bat
-├── INICIAR_ADMIN.bat
 └── README.md
 ```
 
@@ -141,7 +117,7 @@ A proposta atual é trabalhar com arquivos JSON. No futuro, se houver necessidad
 - CSS3
 - JavaScript
 - JSON
-- Python (administração local e processamento dos dados)
+- Python (processamento dos dados)
 
 Possíveis tecnologias futuras poderão ser adicionadas conforme a necessidade do projeto.
 
