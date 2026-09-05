@@ -1,0 +1,96 @@
+/* ==========================================================
+Projeto.....: MAHANIMO
+Arquivo.....: cards_estrutura.css
+Descrição...: Estrutura dos Cards
+Autor.......: OpenAI + Marciel
+Versão......: 0.7
+========================================================== */
+
+
+/* ===========================
+   SEÇÕES QUE UTILIZAM CARDS
+=========================== */
+
+#trending,
+#anime-catalog{
+
+    padding:80px 0;
+}
+
+/* ===========================
+   CABEÇALHO DA SEÇÃO
+=========================== */
+
+.section-header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:35px;
+}
+
+/* ===========================
+   GRADE DOS CARDS
+=========================== */
+
+.cards {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 15px;
+    scroll-behavior: smooth;
+}
+
+/* ===========================
+   CARD
+=========================== */
+
+.card {
+    width: 260px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 18px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+/* ===========================
+   ÁREA DA IMAGEM
+=========================== */
+
+.card-image {
+    width: 100%;
+    height: 250px;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+/* ===========================
+   IMAGEM
+=========================== */
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 25%;
+}
+
+/* ===========================
+   CONTEÚDO
+=========================== */
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 14px;
+    flex: 1;
+}

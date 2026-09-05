@@ -1,0 +1,174 @@
+{
+  "tipo": "projeto",
+  "versao": "1.0",
+  "identificacao": {
+    "id": "mahanimo",
+    "nome": "MAHANIMO OFICIAL",
+    "titulo": "MAHANIMO — Seu universo de animes, mangás, manhwas, novels e filmes",
+    "subtitulo": "Seu universo de animes, mangás, manhwas, novels e filmes em um só lugar.",
+    "slug": "mahanimo"
+  },
+  "classificacao": {
+    "categoria": "entretenimento",
+    "inicialCategoria": "E",
+    "tags": [
+      "anime",
+      "manga",
+      "manhwa",
+      "novel",
+      "filmes",
+      "entretenimento",
+      "portal-web",
+      "conteudo-digital"
+    ]
+  },
+  "descricao": {
+    "resumo": "Portal web voltado à organização e apresentação de conteúdos de entretenimento, reunindo animes, mangás, manhwas, novels e filmes em um único espaço.",
+    "descricaoCompleta": "MAHANIMO é um projeto de portal web desenvolvido para reunir e apresentar diferentes tipos de conteúdos de entretenimento em uma única interface. A versão analisada possui uma página inicial com área de destaque, categorias, conteúdos em destaque e seções específicas para animes, mangás, manhwas, novels e filmes. O projeto também possui elementos de busca, navegação, comunidade, modais e uma estrutura de cards para apresentação dos conteúdos.",
+    "objetivo": "Desenvolver um espaço web organizado para apresentar conteúdos de animes, mangás, manhwas, novels e filmes, utilizando uma interface visual própria e uma estrutura de dados que permita organizar os conteúdos.",
+    "motivacao": "Criar um projeto próprio relacionado ao entretenimento e, ao mesmo tempo, aplicar conhecimentos de desenvolvimento web, organização de arquivos, estruturação de dados, HTML, CSS e JavaScript."
+  },
+  "datas": {
+    "dataCriacao": null,
+    "dataAtualizacao": null
+  },
+  "situacao": {
+    "status": "em desenvolvimento",
+    "progresso": null
+  },
+  "participacao": {
+    "autorPrincipal": true,
+    "auxilioIA": true,
+    "descricao": "Projeto desenvolvido pelo autor com auxílio de Inteligência Artificial durante o processo de planejamento, desenvolvimento, organização e evolução do código. As decisões, alterações, testes e direcionamento do projeto são acompanhados e realizados pelo autor."
+  },
+  "apresentacao": {
+    "imagemCapa": "projetos/MAHANIMO/assets/img/backgrounds/hero_pagina_inicial/image.png",
+    "imagemCard": "projetos/MAHANIMO/assets/img/backgrounds/hero_pagina_inicial/image.png",
+    "icone": "",
+    "corDestaque": "",
+    "fundo": "assets/img/projetos/hero_pagina_inicial/hero_pagina_inicial.webp",
+    "posicaoFundo": "center center"
+  },
+  "destaque": true,
+  "tecnologias": [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "JSON"
+  ],
+  "conhecimentos": {
+    "aplicados": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Estruturação de páginas web",
+      "Organização de arquivos",
+      "Organização de conteúdo",
+      "Manipulação do DOM",
+      "Eventos JavaScript",
+      "Estruturação de dados"
+    ],
+    "adquiridos": [
+      "Organização de um projeto web em diferentes diretórios",
+      "Separação de arquivos CSS por responsabilidade",
+      "Separação de funcionalidades JavaScript por módulos",
+      "Utilização de objetos e arrays para representar conteúdos",
+      "Criação dinâmica de cards com JavaScript",
+      "Ordenação de conteúdos por data",
+      "Utilização de modais",
+      "Criação de estruturas de navegação",
+      "Organização de diferentes categorias de conteúdo"
+    ]
+  },
+  "desenvolvimento": {
+    "descricao": "O projeto foi estruturado com uma página principal composta por diferentes áreas de conteúdo. A versão analisada possui arquivos CSS separados por responsabilidades como base, menu, hero, categorias, cards, modal e rodapé. O JavaScript também está organizado em arquivos específicos para conteúdos, destaques, hero, cards e comunidade.",
+    "funcionalidades": [
+      "Página inicial do MAHANIMO",
+      "Hero com imagens de destaque",
+      "Navegação entre categorias",
+      "Categorias de Anime, Mangá, Manhwa, Novel e Filmes",
+      "Exibição de conteúdos em cards",
+      "Seção de conteúdos em destaque",
+      "Ordenação dos conteúdos por data de adição",
+      "Modal da comunidade",
+      "Integração com comunidade",
+      "Estrutura para pesquisa",
+      "Estrutura de páginas internas por tipo de conteúdo",
+      "Estrutura para plataformas externas",
+      "Estrutura de dados centralizada para conteúdos"
+    ],
+    "desafios": [
+      "Organizar a estrutura do projeto em diferentes pastas",
+      "Separar responsabilidades entre arquivos CSS",
+      "Separar funcionalidades JavaScript",
+      "Criar uma estrutura de dados capaz de representar diferentes tipos de conteúdo",
+      "Organizar conteúdos de diferentes categorias dentro da mesma aplicação",
+      "Preparar o projeto para futuras evoluções"
+    ],
+    "solucoes": [
+      "Separação dos arquivos CSS em diretórios específicos por responsabilidade",
+      "Separação dos arquivos JavaScript por funcionalidade",
+      "Criação de uma base central de conteúdos",
+      "Utilização de objetos JavaScript para representar cada conteúdo",
+      "Utilização de arrays para organizar conjuntos de conteúdos",
+      "Criação dinâmica de cards por JavaScript",
+      "Ordenação dos conteúdos utilizando a data de adição",
+      "Uso de atributos data para identificar conteúdos",
+      "Criação de estruturas específicas para modais e comunidade"
+    ],
+    "aprendizados": [
+      "Importância da organização estrutural de um projeto web",
+      "Separação de responsabilidades entre arquivos",
+      "Organização de dados para consumo pelo JavaScript",
+      "Criação dinâmica de elementos HTML",
+      "Manipulação de classes e atributos do DOM",
+      "Organização de interfaces responsivas",
+      "Criação de componentes visuais reutilizáveis",
+      "Planejamento de funcionalidades antes da implementação"
+    ],
+    "evolucao": [
+      {
+        "etapa": "estrutura inicial",
+        "descricao": "Criação da estrutura base do projeto e organização dos diretórios."
+      },
+      {
+        "etapa": "interface principal",
+        "descricao": "Desenvolvimento da Home, navegação, hero, categorias e seções de conteúdo."
+      },
+      {
+        "etapa": "cards e conteúdos",
+        "descricao": "Criação da estrutura de cards e organização dos conteúdos por categoria."
+      },
+      {
+        "etapa": "dados",
+        "descricao": "Criação de uma base central de conteúdos para alimentar a interface."
+      },
+      {
+        "etapa": "interações",
+        "descricao": "Implementação de funcionalidades JavaScript para destaques, hero e comunidade."
+      },
+      {
+        "etapa": "refinamento",
+        "descricao": "Continuação do desenvolvimento e preparação da estrutura para futuras funcionalidades."
+      }
+    ]
+  },
+  "links": {
+    "projeto": {
+      "disponivel": true,
+      "tipo": "local",
+      "url": "projetos/MAHANIMO_TESTE/index.html",
+      "descricao": "Versão local do projeto MAHANIMO incluída no MSA Projects."
+    },
+    "github": {
+      "disponivel": false,
+      "url": ""
+    },
+    "documentacao": {
+      "disponivel": false,
+      "url": ""
+    },
+    "outros": []
+  },
+  "observacoes": "Registro baseado na versão do projeto MAHANIMO incluída no catálogo do MSA Projects. O acesso direto aponta para a versão local do projeto."
+}

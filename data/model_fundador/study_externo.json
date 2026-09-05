@@ -1,0 +1,719 @@
+{
+  "tipo": "estudos_externos",
+  "ultimaAtualizacao": "2026-09-03",
+  "descricao": "Registro de cursos, conteúdos, estudos autônomos e conhecimentos desenvolvidos fora da formação acadêmica formal.",
+
+  "estudos": [
+    {
+      "id": "estudo_informatica_basica_rede_click",
+      "titulo": "Informática Básica",
+      "tipo": "curso",
+      "plataforma": "Rede Click",
+
+      "fonte": {
+        "tipo": "instituicao",
+        "nome": "Rede Click",
+        "url": null,
+        "canal": null
+      },
+
+      "autor": null,
+
+      "periodo": {
+        "inicio": null,
+        "fim": null,
+        "status": "concluido"
+      },
+
+      "ano": null,
+      "horasEstudadas": null,
+
+      "certificado": {
+        "disponivel": true,
+        "obtido": true,
+        "observacao": "Certificado de conclusão obtido. A formação contempla conteúdos de informática e ferramentas de produtividade, incluindo Word, PowerPoint e Excel, com conteúdo relacionado a Excel Avançado."
+      },
+
+      "descricao": "Curso de informática básica realizado na Rede Click, abrangendo fundamentos de informática e ferramentas utilizadas no dia a dia.",
+
+      "objetivo": "Desenvolver conhecimentos fundamentais de informática e ampliar a capacidade de utilização de ferramentas computacionais.",
+
+      "conteudos": [
+        "Informática básica",
+        "Microsoft Word",
+        "Microsoft PowerPoint",
+        "Microsoft Excel",
+        "Excel Avançado"
+      ],
+
+      "conhecimentosAdquiridos": [
+        "Fundamentos de informática",
+        "Utilização de ferramentas de produtividade",
+        "Criação e edição de documentos",
+        "Criação e edição de apresentações",
+        "Utilização de planilhas eletrônicas",
+        "Conhecimentos relacionados ao Excel em nível avançado"
+      ],
+
+      "tecnologias": [
+        "Microsoft Word",
+        "Microsoft PowerPoint",
+        "Microsoft Excel"
+      ],
+
+      "anotacoes": "O conteúdo de Excel Avançado faz parte da formação de Informática Básica e não deve ser tratado como um curso externo separado.",
+
+      "observacoes": "Curso concluído com certificado."
+    },
+
+
+    {
+      "id": "estudo_manutencao_celulares_rede_click",
+      "titulo": "Manutenção de Celulares",
+      "tipo": "curso",
+      "plataforma": "Rede Click",
+
+      "fonte": {
+        "tipo": "instituicao",
+        "nome": "Rede Click",
+        "url": null,
+        "canal": null
+      },
+
+      "autor": null,
+
+      "periodo": {
+        "inicio": null,
+        "fim": null,
+        "status": "concluido"
+      },
+
+      "ano": null,
+      "horasEstudadas": null,
+
+      "certificado": {
+        "disponivel": true,
+        "obtido": true,
+        "observacao": "Certificado próprio e separado do certificado dos demais cursos de manutenção."
+      },
+
+      "descricao": "Curso de manutenção de celulares realizado na Rede Click.",
+
+      "objetivo": "Desenvolver conhecimentos relacionados à manutenção e ao funcionamento de dispositivos celulares.",
+
+      "conteudos": [
+        "Manutenção de celulares"
+      ],
+
+      "conhecimentosAdquiridos": [
+        "Conhecimentos básicos relacionados à manutenção de celulares",
+        "Noções sobre funcionamento e componentes de dispositivos móveis"
+      ],
+
+      "tecnologias": [
+        "Celulares",
+        "Dispositivos móveis"
+      ],
+
+      "anotacoes": "",
+
+      "observacoes": "Curso concluído. As informações de carga horária e período poderão ser adicionadas posteriormente a partir do certificado."
+    },
+
+
+    {
+      "id": "estudo_manutencao_notebooks_rede_click",
+      "titulo": "Manutenção de Notebooks",
+      "tipo": "curso",
+      "plataforma": "Rede Click",
+
+      "fonte": {
+        "tipo": "instituicao",
+        "nome": "Rede Click",
+        "url": null,
+        "canal": null
+      },
+
+      "autor": null,
+
+      "periodo": {
+        "inicio": null,
+        "fim": null,
+        "status": "concluido"
+      },
+
+      "ano": null,
+      "horasEstudadas": null,
+
+      "certificado": {
+        "disponivel": true,
+        "obtido": true,
+        "observacao": "Certificado próprio e separado dos demais cursos de manutenção."
+      },
+
+      "descricao": "Curso de manutenção de notebooks realizado na Rede Click.",
+
+      "objetivo": "Desenvolver conhecimentos relacionados à manutenção, funcionamento e componentes de notebooks.",
+
+      "conteudos": [
+        "Manutenção de notebooks"
+      ],
+
+      "conhecimentosAdquiridos": [
+        "Conhecimentos básicos relacionados à manutenção de notebooks",
+        "Noções sobre componentes de computadores portáteis",
+        "Noções sobre funcionamento de notebooks"
+      ],
+
+      "tecnologias": [
+        "Notebooks",
+        "Hardware"
+      ],
+
+      "anotacoes": "",
+
+      "observacoes": "Curso concluído. As informações de carga horária e período poderão ser adicionadas posteriormente a partir do certificado."
+    },
+
+
+    {
+      "id": "estudo_manutencao_pcs_rede_click",
+      "titulo": "Manutenção de PCs",
+      "tipo": "curso",
+      "plataforma": "Rede Click",
+
+      "fonte": {
+        "tipo": "instituicao",
+        "nome": "Rede Click",
+        "url": null,
+        "canal": null
+      },
+
+      "autor": null,
+
+      "periodo": {
+        "inicio": null,
+        "fim": null,
+        "status": "concluido"
+      },
+
+      "ano": null,
+      "horasEstudadas": null,
+
+      "certificado": {
+        "disponivel": true,
+        "obtido": true,
+        "observacao": "Certificado próprio e separado dos demais cursos de manutenção."
+      },
+
+      "descricao": "Curso de manutenção de PCs realizado na Rede Click.",
+
+      "objetivo": "Desenvolver conhecimentos relacionados à manutenção e ao funcionamento de computadores pessoais.",
+
+      "conteudos": [
+        "Manutenção de PCs",
+        "Hardware",
+        "Componentes de computadores"
+      ],
+
+      "conhecimentosAdquiridos": [
+        "Conhecimentos básicos relacionados à manutenção de PCs",
+        "Noções sobre componentes de hardware",
+        "Noções sobre funcionamento de computadores"
+      ],
+
+      "tecnologias": [
+        "Computadores",
+        "PCs",
+        "Hardware"
+      ],
+
+      "anotacoes": "",
+
+      "observacoes": "Curso concluído. As informações de carga horária e período poderão ser adicionadas posteriormente a partir do certificado."
+    },
+
+
+    {
+      "id": "estudo_java_virado_no_jiraya",
+      "titulo": "Maratona Java Virado no Jiraya",
+      "tipo": "playlist",
+      "plataforma": "YouTube",
+
+      "fonte": {
+        "tipo": "youtube",
+        "nome": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW",
+        "canal": "DevDojo"
+      },
+
+      "autor": "DevDojo",
+
+      "periodo": {
+        "inicio": null,
+        "fim": null,
+        "status": "incompleto"
+      },
+
+      "ano": null,
+      "horasEstudadas": null,
+
+      "certificado": {
+        "disponivel": true,
+        "obtido": false,
+        "observacao": "O conteúdo apresenta possibilidade de certificação, porém o estudo não foi concluído e o certificado não foi obtido."
+      },
+
+      "descricao": "Playlist de estudos sobre Java acompanhada por meio do YouTube. O conteúdo foi iniciado, porém não foi concluído.",
+
+      "objetivo": "Aprofundar conhecimentos em programação Java por meio de estudo complementar à formação acadêmica.",
+
+      "conteudos": [
+        "Java",
+        "Programação orientada a objetos",
+        "Fundamentos da linguagem Java",
+        "Desenvolvimento de aplicações em Java"
+      ],
+
+      "conhecimentosAdquiridos": [
+        "Conhecimentos introdutórios e intermediários relacionados aos conteúdos estudados durante o acompanhamento da playlist"
+      ],
+
+      "tecnologias": [
+        "Java"
+      ],
+
+      "anotacoes": "O conteúdo foi iniciado, mas não foi concluído. Por esse motivo, os conhecimentos adquiridos devem ser considerados apenas aqueles efetivamente estudados, e não todo o conteúdo existente na playlist.",
+
+      "observacoes": "Estudo externo realizado pelo YouTube. A playlist poderá ser retomada futuramente para continuidade dos estudos."
+    },
+
+
+    {
+      "id": "estudo_comportamento_humano",
+      "titulo": "Comportamento humano e dinâmica social",
+      "tipo": "estudo-autonomo",
+      "plataforma": null,
+
+      "fonte": {
+        "tipo": "autonomo",
+        "nome": null,
+        "url": null,
+        "canal": null
+      },
+
+      "autor": null,
+
+      "periodo": {
+        "inicio": null,
+        "fim": null,
+        "status": "em desenvolvimento"
+      },
+
+      "ano": null,
+      "horasEstudadas": null,
+
+      "certificado": {
+        "disponivel": false,
+        "obtido": false,
+        "observacao": "Estudo autônomo, sem certificação formal."
+      },
+
+      "descricao": "Estudo pessoal voltado à compreensão do comportamento humano, das relações sociais e das formas pelas quais as pessoas podem influenciar umas às outras.",
+
+      "objetivo": "Compreender melhor as dinâmicas sociais, reconhecer padrões de comportamento e identificar possíveis formas de influência ou manipulação, principalmente como forma de desenvolver consciência e evitar ser manipulado.",
+
+      "conteudos": [
+        "Comportamento humano",
+        "Dinâmica social",
+        "Interação social",
+        "Influência",
+        "Persuasão",
+        "Manipulação",
+        "Reconhecimento de padrões de comportamento",
+        "Limites pessoais",
+        "Tomada de decisão"
+      ],
+
+      "conhecimentosAdquiridos": [
+        "Maior percepção sobre comportamentos humanos",
+        "Maior atenção às dinâmicas presentes nas relações sociais",
+        "Reconhecimento de possíveis estratégias de influência",
+        "Maior capacidade de observar padrões de comportamento",
+        "Compreensão de que relações sociais podem envolver diferentes interesses e formas de influência"
+      ],
+
+      "tecnologias": [],
+
+      "anotacoes": "O estudo não tem como objetivo aprender a manipular outras pessoas. A finalidade principal é compreender como as pessoas podem influenciar umas às outras e reconhecer possíveis estratégias de manipulação para reduzir a possibilidade de ser manipulado. A ideia de 'manipular as peças do tabuleiro' é utilizada como uma metáfora para compreender a dinâmica de uma situação, perceber os interesses envolvidos e entender como os participantes podem tentar influenciar o andamento dos acontecimentos. O objetivo é compreender o tabuleiro e evitar ser tratado como uma peça, e não transformar outras pessoas em peças.",
+
+      "observacoes": "Os conhecimentos são introdutórios e estão em desenvolvimento. Este registro não representa formação acadêmica ou profissional em Psicologia."
+    },
+
+
+    {
+      "id": "estudo_emocoes_autoconhecimento",
+      "titulo": "Emoções e autoconhecimento",
+      "tipo": "estudo-autonomo",
+      "plataforma": null,
+
+      "fonte": {
+        "tipo": "autonomo",
+        "nome": null,
+        "url": null,
+        "canal": null
+      },
+
+      "autor": null,
+
+      "periodo": {
+        "inicio": null,
+        "fim": null,
+        "status": "em desenvolvimento"
+      },
+
+      "ano": null,
+      "horasEstudadas": null,
+
+      "certificado": {
+        "disponivel": false,
+        "obtido": false,
+        "observacao": "Estudo autônomo, sem certificação formal."
+      },
+
+      "descricao": "Estudo pessoal sobre emoções humanas e autoconhecimento, buscando compreender tanto as emoções das outras pessoas quanto as próprias reações emocionais.",
+
+      "objetivo": "Desenvolver maior compreensão sobre as próprias emoções, reações e comportamentos, além de compreender melhor como as emoções influenciam as interações humanas.",
+
+      "conteudos": [
+        "Emoções humanas",
+        "Autoconhecimento",
+        "Percepção emocional",
+        "Reações emocionais",
+        "Comportamento emocional",
+        "Autorregulação",
+        "Consciência emocional"
+      ],
+
+      "conhecimentosAdquiridos": [
+        "Maior atenção às próprias emoções",
+        "Maior percepção sobre reações emocionais",
+        "Maior compreensão da relação entre emoções e comportamento",
+        "Maior capacidade de observar emoções durante interações sociais"
+      ],
+
+      "tecnologias": [],
+
+      "anotacoes": "Parte do estudo sobre comportamento humano também está relacionada à compreensão das próprias emoções. A intenção é não apenas compreender o comportamento das outras pessoas, mas também perceber as próprias reações, entender melhor o que influencia determinados sentimentos e desenvolver maior consciência antes de agir.",
+
+      "observacoes": "Estudo pessoal em desenvolvimento. Não representa formação profissional em Psicologia."
+    },
+
+
+    {
+      "id": "estudo_comunicacao_linguagem_corporal",
+      "titulo": "Comunicação, linguagem corporal e interação social",
+      "tipo": "estudo-autonomo",
+      "plataforma": null,
+
+      "fonte": {
+        "tipo": "autonomo",
+        "nome": null,
+        "url": null,
+        "canal": null
+      },
+
+      "autor": null,
+
+      "periodo": {
+        "inicio": null,
+        "fim": null,
+        "status": "em desenvolvimento"
+      },
+
+      "ano": null,
+      "horasEstudadas": null,
+
+      "certificado": {
+        "disponivel": false,
+        "obtido": false,
+        "observacao": "Estudo autônomo, sem certificação formal."
+      },
+
+      "descricao": "Estudo pessoal voltado ao desenvolvimento da comunicação, compreensão da linguagem corporal e melhoria da interação social.",
+
+      "objetivo": "Desenvolver maior capacidade de comunicação em situações casuais e profissionais, compreender sinais não verbais e melhorar a interação com outras pessoas.",
+
+      "conteudos": [
+        "Comunicação verbal",
+        "Comunicação não verbal",
+        "Linguagem corporal",
+        "Interação social",
+        "Conversação",
+        "Escuta",
+        "Comunicação assertiva",
+        "Expressão pessoal"
+      ],
+
+      "conhecimentosAdquiridos": [
+        "Maior atenção à comunicação verbal e não verbal",
+        "Maior percepção sobre linguagem corporal",
+        "Maior consciência sobre a própria forma de comunicação",
+        "Busca por uma comunicação mais clara e assertiva",
+        "Maior compreensão das diferentes formas de interação social"
+      ],
+
+      "tecnologias": [],
+
+      "anotacoes": "O estudo surgiu também da vontade de melhorar a comunicação pessoal e profissional. A intenção é desenvolver uma comunicação mais natural e assertiva, sem assumir uma postura agressiva nem excessivamente passiva.",
+
+      "observacoes": "Estudo autônomo em desenvolvimento."
+    },
+
+
+    {
+      "id": "estudo_conflitos_assertividade",
+      "titulo": "Comunicação assertiva e resolução de conflitos",
+      "tipo": "estudo-autonomo",
+      "plataforma": null,
+
+      "fonte": {
+        "tipo": "autonomo",
+        "nome": null,
+        "url": null,
+        "canal": null
+      },
+
+      "autor": null,
+
+      "periodo": {
+        "inicio": null,
+        "fim": null,
+        "status": "em desenvolvimento"
+      },
+
+      "ano": null,
+      "horasEstudadas": null,
+
+      "certificado": {
+        "disponivel": false,
+        "obtido": false,
+        "observacao": "Estudo autônomo, sem certificação formal."
+      },
+
+      "descricao": "Estudo sobre comunicação assertiva, diálogo e resolução de conflitos por meio da comunicação.",
+
+      "objetivo": "Aprender formas de lidar com conflitos por meio do diálogo, mantendo uma postura firme e respeitosa sem recorrer à agressividade ou à submissão.",
+
+      "conteudos": [
+        "Comunicação assertiva",
+        "Resolução de conflitos",
+        "Diálogo",
+        "Limites pessoais",
+        "Negociação",
+        "Posicionamento pessoal",
+        "Escuta",
+        "Comunicação não agressiva"
+      ],
+
+      "conhecimentosAdquiridos": [
+        "Importância do diálogo na resolução de conflitos",
+        "Importância de estabelecer limites",
+        "Busca por posicionamento firme e respeitoso",
+        "Diferença entre agressividade, passividade e assertividade",
+        "Maior atenção à forma de conduzir conversas difíceis"
+      ],
+
+      "tecnologias": [],
+
+      "anotacoes": "O objetivo é aprender a resolver conflitos através do diálogo sem assumir uma postura agressiva, mas também sem aceitar uma posição de submissão. A intenção é conseguir expressar opiniões, limites e discordâncias de maneira firme e respeitosa.",
+
+      "observacoes": "Estudo pessoal em desenvolvimento."
+    },
+
+
+    {
+      "id": "estudo_disciplina_autocontrole",
+      "titulo": "Disciplina, determinação e continuidade",
+      "tipo": "estudo-autonomo",
+      "plataforma": null,
+
+      "fonte": {
+        "tipo": "autonomo",
+        "nome": null,
+        "url": null,
+        "canal": null
+      },
+
+      "autor": null,
+
+      "periodo": {
+        "inicio": null,
+        "fim": null,
+        "status": "em desenvolvimento"
+      },
+
+      "ano": null,
+      "horasEstudadas": null,
+
+      "certificado": {
+        "disponivel": false,
+        "obtido": false,
+        "observacao": "Estudo autônomo, sem certificação formal."
+      },
+
+      "descricao": "Estudo pessoal relacionado à disciplina, determinação e capacidade de continuar atividades mesmo diante de dificuldades ou resistência.",
+
+      "objetivo": "Desenvolver maior disciplina e capacidade de manter o compromisso com objetivos e atividades mesmo quando existe resistência ou dificuldade.",
+
+      "conteudos": [
+        "Disciplina",
+        "Determinação",
+        "Persistência",
+        "Autocontrole",
+        "Continuidade",
+        "Formação de hábitos",
+        "Organização pessoal"
+      ],
+
+      "conhecimentosAdquiridos": [
+        "Importância da continuidade",
+        "Importância da disciplina para alcançar objetivos",
+        "Percepção sobre resistência durante processos de aprendizagem",
+        "Busca por maior consistência na execução de atividades"
+      ],
+
+      "tecnologias": [],
+
+      "anotacoes": "O estudo está relacionado à capacidade de continuar uma atividade mesmo quando existe resistência ou vontade de interromper. A intenção é compreender melhor como manter determinação e continuidade durante processos de aprendizagem e desenvolvimento pessoal.",
+
+      "observacoes": "Estudo pessoal em desenvolvimento."
+    },
+
+
+    {
+      "id": "estudo_atracao_interacao_social",
+      "titulo": "Atração, interação social e dinâmica interpessoal",
+      "tipo": "estudo-autonomo",
+      "plataforma": null,
+
+      "fonte": {
+        "tipo": "autonomo",
+        "nome": null,
+        "url": null,
+        "canal": null
+      },
+
+      "autor": null,
+
+      "periodo": {
+        "inicio": null,
+        "fim": null,
+        "status": "em desenvolvimento"
+      },
+
+      "ano": null,
+      "horasEstudadas": null,
+
+      "certificado": {
+        "disponivel": false,
+        "obtido": false,
+        "observacao": "Estudo autônomo, sem certificação formal."
+      },
+
+      "descricao": "Estudo pessoal sobre interação social, atração e dinâmica interpessoal.",
+
+      "objetivo": "Compreender melhor determinados aspectos da interação entre pessoas, incluindo atração, comunicação e comportamento social.",
+
+      "conteudos": [
+        "Interação social",
+        "Atração",
+        "Comunicação",
+        "Comportamento social",
+        "Dinâmica interpessoal",
+        "Percepção social"
+      ],
+
+      "conhecimentosAdquiridos": [
+        "Maior atenção às dinâmicas de interação",
+        "Maior percepção sobre comunicação e comportamento social",
+        "Compreensão introdutória de fatores envolvidos na atração e interação entre pessoas"
+      ],
+
+      "tecnologias": [],
+
+      "anotacoes": "Estudo realizado por interesse pessoal na compreensão das relações e interações humanas. O objetivo é compreender os mecanismos sociais envolvidos nas interações, e não tratar outras pessoas como objetos ou instrumentos.",
+
+      "observacoes": "Conhecimento introdutório e em desenvolvimento."
+    },
+
+
+    {
+      "id": "estudo_tecnologia_dispositivos",
+      "titulo": "Tecnologia, dispositivos e desempenho",
+      "tipo": "estudo-autonomo",
+      "plataforma": null,
+
+      "fonte": {
+        "tipo": "autonomo",
+        "nome": null,
+        "url": null,
+        "canal": null
+      },
+
+      "autor": null,
+
+      "periodo": {
+        "inicio": null,
+        "fim": null,
+        "status": "em desenvolvimento"
+      },
+
+      "ano": null,
+      "horasEstudadas": null,
+
+      "certificado": {
+        "disponivel": false,
+        "obtido": false,
+        "observacao": "Estudo autônomo, sem certificação formal."
+      },
+
+      "descricao": "Estudo pessoal sobre tecnologia, dispositivos eletrônicos, desempenho, funcionamento e aspectos de personalização.",
+
+      "objetivo": "Compreender melhor o funcionamento e o desempenho de dispositivos tecnológicos, além de explorar possibilidades de configuração, personalização e melhoria da experiência de uso.",
+
+      "conteudos": [
+        "Desempenho de dispositivos",
+        "Celulares",
+        "Computadores",
+        "Notebooks",
+        "Hardware",
+        "Software",
+        "Configuração",
+        "Personalização",
+        "Estética de dispositivos",
+        "Otimização"
+      ],
+
+      "conhecimentosAdquiridos": [
+        "Maior interesse e compreensão sobre desempenho de dispositivos",
+        "Conhecimentos relacionados a celulares, PCs e notebooks",
+        "Maior percepção sobre relação entre hardware e desempenho",
+        "Interesse por configuração e personalização tecnológica",
+        "Maior familiaridade com aspectos técnicos e estéticos dos dispositivos"
+      ],
+
+      "tecnologias": [
+        "Hardware",
+        "Software",
+        "Celulares",
+        "PCs",
+        "Notebooks"
+      ],
+
+      "anotacoes": "Estudo realizado por interesse pessoal em tecnologia e no funcionamento dos dispositivos utilizados no cotidiano. Também envolve interesse por desempenho, configuração, personalização e aspectos estéticos de celulares, computadores e notebooks.",
+
+      "observacoes": "Estudo autônomo em desenvolvimento."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "linha-do-tempo",
+  "titulo": "Linha do tempo",
+
+  "eventos": [
+    {
+      "data": "2026-08-29",
+      "titulo": "Reorganização dos dados",
+      "descricao": "Início da separação dos dados do MSA Projects em arquivos JSON independentes.",
+      "categoria": "arquitetura"
+    },
+
+    {
+      "data": "2026-08-29",
+      "titulo": "Organização da estrutura de projetos",
+      "descricao": "Criação da estrutura de projetos organizada por iniciais.",
+      "categoria": "organizacao"
+    }
+  ]
+}

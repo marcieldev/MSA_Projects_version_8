@@ -1,0 +1,8 @@
+{
+  "id": "configuracoes",
+  "nome": "Configurações",
+  "tipo": "painel",
+  "alvo": "settings-panel",
+  "ordem": 6,
+  "ativo": true
+}

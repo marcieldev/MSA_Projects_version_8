@@ -1,0 +1,33 @@
+/* ===========================
+   CATEGORIAS - ANIMAÇÃO
+=========================== */
+
+.categoria-card{
+
+    transition:
+
+        transform .35s ease,
+        box-shadow .35s ease,
+        border-color .35s ease;
+}
+
+.categoria-card:hover{
+
+    transform:translateY(-8px);
+    border-color:#6C3BFF;
+    box-shadow:
+        0 20px 45px rgba(108,59,255,.25);
+}
+
+.categoria-icon{
+
+    transition:
+        transform .35s ease,
+        color .35s ease;
+}
+
+.categoria-card:hover .categoria-icon{
+
+    transform:scale(1.15);
+    color:#8A63FF;
+}

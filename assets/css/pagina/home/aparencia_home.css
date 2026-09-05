@@ -1,0 +1,1 @@
+.hero,.project-section,.overview-card,.project-card,.info-card,.stat-card{isolation:isolate}.hero-visual{overflow:hidden}.project-section:nth-child(even){position:relative}.project-section:nth-child(even)::before{content:"";position:absolute;inset:0 -100vw;z-index:-1;background:rgba(255,255,255,.012);border-block:1px solid rgba(255,255,255,.025)}

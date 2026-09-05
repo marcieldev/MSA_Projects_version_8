@@ -1,0 +1,28 @@
+/* ==================================================
+   TEMA GLOBAL
+================================================== */
+
+body{
+
+    background:var(--cor-fundo);
+    color:var(--cor-texto);
+    font-family:var(--fonte-principal);
+    line-height:1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+
+    color:var(--cor-texto);
+    line-height:1.2;
+    font-weight:700;
+}
+
+p{
+
+    color:var(--cor-texto-secundario);
+}

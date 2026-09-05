@@ -1,0 +1,283 @@
+{
+  "tipo": "disciplinas_academicas",
+  "descricao": "Disciplinas estudadas durante a formação acadêmica, organizadas por período.",
+  "ultimaAtualizacao": "2026-08-26",
+
+  "periodos": [
+    {
+      "id": "2025-1",
+      "periodo": "2025.1",
+      "status": "concluido",
+
+      "disciplinas": [
+        {
+          "id": "arquitetura-de-computadores",
+          "titulo": "Arquitetura de Computadores",
+          "status": "aprovado",
+          "origem": "faculdade",
+          "formato": null,
+          "progresso": 100,
+          "identificadores": [
+            "VIV0013",
+            "3004"
+          ]
+        },
+        {
+          "id": "introducao-a-seguranca-da-informacao",
+          "titulo": "Introdução à Segurança da Informação",
+          "status": "aprovado",
+          "origem": "faculdade",
+          "formato": null,
+          "progresso": 100,
+          "identificadores": [
+            "ARA1727",
+            "9001"
+          ]
+        },
+        {
+          "id": "fundamentos-de-redes-de-computadores",
+          "titulo": "Fundamentos de Redes de Computadores",
+          "status": "aprovado",
+          "origem": "faculdade",
+          "formato": null,
+          "progresso": 100,
+          "identificadores": [
+            "VIV0073",
+            "3005"
+          ]
+        },
+        {
+          "id": "matematica-e-logica",
+          "titulo": "Matemática e Lógica",
+          "status": "aprovado",
+          "origem": "faculdade",
+          "formato": null,
+          "progresso": 100,
+          "identificadores": [
+            "VIV0134",
+            "3003"
+          ]
+        },
+        {
+          "id": "processos-de-desenvolvimento-de-software",
+          "titulo": "Processos de Desenvolvimento de Software",
+          "status": "aprovado",
+          "origem": "faculdade",
+          "formato": null,
+          "progresso": 100,
+          "identificadores": [
+            "VIV0273",
+            "3002"
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "2025-2",
+      "periodo": "2025.2",
+      "status": "concluido",
+
+      "disciplinas": [
+        {
+          "id": "introducao-a-programacao-de-computadores",
+          "titulo": "Introdução à Programação de Computadores",
+          "status": "aprovado",
+          "origem": "faculdade",
+          "formato": null,
+          "progresso": 100,
+          "identificadores": [
+            "VIV0001",
+            "3004"
+          ]
+        },
+        {
+          "id": "desenvolvimento-web-html5-css-javascript-php",
+          "titulo": "Desenv. Web em Html5, Css, Javascript e Php",
+          "status": "aprovado",
+          "origem": "faculdade",
+          "formato": null,
+          "progresso": 100,
+          "identificadores": [
+            "VIV0034",
+            "3003"
+          ]
+        },
+        {
+          "id": "banco-de-dados",
+          "titulo": "Banco de Dados",
+          "status": "aprovado",
+          "origem": "faculdade",
+          "formato": null,
+          "progresso": 100,
+          "identificadores": [
+            "VIV0018",
+            "3006"
+          ]
+        },
+        {
+          "id": "engenharia-de-usabilidade",
+          "titulo": "Engenharia de Usabilidade",
+          "status": "aprovado",
+          "origem": "faculdade",
+          "formato": null,
+          "progresso": 100,
+          "identificadores": [
+            "ARA1663",
+            "9001"
+          ]
+        },
+        {
+          "id": "paradigmas-de-linguagens-de-programacao-em-python",
+          "titulo": "Paradigmas de Linguagens de Programacao em Python",
+          "status": "aprovado",
+          "origem": "faculdade",
+          "formato": null,
+          "progresso": 100,
+          "identificadores": [
+            "VIV0160",
+            "3009"
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "2026-1",
+      "periodo": "2026.1",
+      "status": "concluido",
+
+      "disciplinas": [
+        {
+          "id": "computacao-em-nuvem",
+          "titulo": "Computação em Nuvem",
+          "status": "aprovado",
+          "origem": "faculdade",
+          "formato": null,
+          "progresso": 100,
+          "identificadores": [
+            "VIV0225",
+            "3004"
+          ]
+        },
+        {
+          "id": "estrutura-de-dados",
+          "titulo": "Estrutura de Dados",
+          "status": "aprovado",
+          "origem": "faculdade",
+          "formato": null,
+          "progresso": 100,
+          "identificadores": [
+            "ARA1676",
+            "9001"
+          ]
+        },
+        {
+          "id": "requisitos-de-sistemas",
+          "titulo": "Requisitos de Sistemas",
+          "status": "aprovado",
+          "origem": "faculdade",
+          "formato": null,
+          "progresso": 100,
+          "identificadores": [
+            "VIV0280",
+            "3005"
+          ]
+        },
+        {
+          "id": "programacao-orientada-a-objetos-em-java",
+          "titulo": "Programação Orientada a Objetos em Java",
+          "status": "aprovado",
+          "origem": "faculdade",
+          "formato": null,
+          "progresso": 100,
+          "identificadores": [
+            "VIV0174",
+            "3009"
+          ]
+        },
+        {
+          "id": "arquitetura-de-sistemas",
+          "titulo": "Arquitetura de Sistemas",
+          "status": "aprovado",
+          "origem": "faculdade",
+          "formato": null,
+          "progresso": 100,
+          "identificadores": [
+            "VIV0213",
+            "3005"
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "2026-2",
+      "periodo": "2026.2",
+      "status": "em-andamento",
+
+      "disciplinas": [
+        {
+          "id": "comportamento-organizacional",
+          "titulo": "Comportamento Organizacional",
+          "status": "em-andamento",
+          "origem": "faculdade",
+          "formato": "Digital (EAD)",
+          "progresso": 6,
+          "identificadores": [
+            "ARA1627",
+            "9001"
+          ]
+        },
+        {
+          "id": "pensamento-computacional",
+          "titulo": "Pensamento Computacional",
+          "status": "em-andamento",
+          "origem": "faculdade",
+          "formato": "Ao Vivo",
+          "progresso": 6,
+          "identificadores": [
+            "VIV0003",
+            "3001"
+          ]
+        },
+        {
+          "id": "indicadores-de-desempenho-de-ti",
+          "titulo": "Indicadores de Desempenho de TI",
+          "status": "em-andamento",
+          "origem": "faculdade",
+          "formato": "Ao Vivo",
+          "progresso": 8,
+          "identificadores": [
+            "VIV0105",
+            "3001"
+          ]
+        },
+        {
+          "id": "desenvolvimento-web-full-mvc",
+          "titulo": "Desenvolvimento Web Full MVC",
+          "status": "em-andamento",
+          "origem": "faculdade",
+          "formato": "Ao Vivo",
+          "progresso": 9,
+          "identificadores": [
+            "VIV0234",
+            "3001"
+          ]
+        },
+        {
+          "id": "gerencia-de-configuracao",
+          "titulo": "Gerência de Configuração",
+          "status": "em-andamento",
+          "origem": "faculdade",
+          "formato": "Ao Vivo",
+          "progresso": 0,
+          "identificadores": [
+            "VIV0243",
+            "3002"
+          ]
+        }
+      ]
+    }
+  ]
+}

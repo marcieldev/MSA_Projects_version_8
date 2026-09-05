@@ -1,0 +1,56 @@
+/* ==========================================================
+   MENU / HEADER — APARÊNCIA
+   Arquivo: menu_aparencia.css
+========================================================== */
+
+/* HEADER */
+
+.site-header {
+  background: rgba(15, 17, 23, 0.94);
+
+  border-bottom:
+    1px solid
+    var(--border-color);
+
+  backdrop-filter: blur(12px);
+}
+
+/* LOGO */
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+
+  letter-spacing: 1px;
+
+  color: var(--text-primary);
+
+  white-space: nowrap;
+}
+
+/* LINKS */
+
+.navigation-link {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.navigation-link:hover,
+.navigation-link.active {
+  color: var(--text-primary);
+}
+
+/* PESQUISA */
+
+.search-button {
+  width: 42px;
+  height: 42px;
+
+  border: 0;
+  border-radius: 50%;
+
+  background: var(--background-secondary);
+  color: var(--text-primary);
+
+  cursor: pointer;
+}

@@ -1,0 +1,474 @@
+<!-- ==========================================================
+MAHANIMO
+Arquivo: modal-instrucoes.html
+Função: Modal de instruções para envio de sugestões
+========================================================== -->
+
+<div
+  class="suggestion-instructions-modal"
+  id="suggestionInstructionsModal"
+  aria-hidden="true"
+>
+  <!-- ========================================================
+  FUNDO ESCURECIDO
+  ========================================================= -->
+
+  <div
+    class="suggestion-instructions-overlay"
+    data-close-suggestion-instructions
+  ></div>
+
+  <!-- ========================================================
+  CONTEÚDO PRINCIPAL
+  ========================================================= -->
+
+  <div
+    class="suggestion-instructions-content"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="suggestionInstructionsTitle"
+  >
+    <!-- ======================================================
+    BOTÃO FECHAR
+    ====================================================== -->
+
+    <button
+      type="button"
+      class="suggestion-instructions-close"
+      id="suggestionInstructionsClose"
+      aria-label="Fechar instruções"
+    >
+      &times;
+    </button>
+
+    <!-- ======================================================
+    CABEÇALHO
+    ====================================================== -->
+
+    <header class="suggestion-instructions-header">
+      <span class="section-label"> SUGESTÃO AO MAHANIMO </span>
+
+      <h2 id="suggestionInstructionsTitle">Antes de enviar sua sugestão</h2>
+
+      <p>
+        Leia atentamente as instruções abaixo para entender como funciona o
+        processo de sugestões do MAHANIMO.
+      </p>
+    </header>
+
+    <!-- ======================================================
+    ÁREA DE LEITURA
+    ====================================================== -->
+
+    <div class="suggestion-instructions-scroll">
+      <!-- ====================================================
+      1 — COMO FUNCIONA
+      ==================================================== -->
+
+      <section class="suggestion-instruction-block">
+        <h3>📌 Como funciona?</h3>
+
+        <p>Você está prestes a enviar uma sugestão para o MAHANIMO.</p>
+
+        <p>
+          O MAHANIMO organiza conteúdos de diferentes categorias, como animes,
+          mangás, manhwas, novels e filmes.
+        </p>
+
+        <p>
+          As sugestões enviadas pela comunidade são recebidas para análise e
+          podem contribuir para a inclusão de novos conteúdos no projeto.
+        </p>
+
+        <p>
+          <strong> Importante: </strong>
+
+          enviar uma sugestão não significa que a obra será adicionada
+          automaticamente ao MAHANIMO. Todas as sugestões passam por uma análise
+          antes de serem aprovadas.
+        </p>
+      </section>
+
+      <!-- ====================================================
+      2 — POR QUE AS INFORMAÇÕES SÃO NECESSÁRIAS
+      ==================================================== -->
+
+      <section class="suggestion-instruction-block">
+        <h3>📋 Por que essas informações são necessárias?</h3>
+
+        <p>
+          Para que uma nova obra possa ser analisada e, posteriormente,
+          adicionada ao projeto, precisamos reunir algumas informações básicas
+          sobre ela.
+        </p>
+
+        <p>
+          Essas informações ajudam a manter o MAHANIMO organizado e facilitam a
+          verificação dos dados antes da inclusão.
+        </p>
+
+        <p>
+          Por isso, ao enviar uma sugestão, você poderá ser solicitado a
+          informar:
+        </p>
+
+        <ul>
+          <li>Nome da obra;</li>
+
+          <li>Tipo de conteúdo;</li>
+
+          <li>Gêneros;</li>
+
+          <li>Ano;</li>
+
+          <li>Status;</li>
+
+          <li>Informações adicionais;</li>
+
+          <li>Links das plataformas onde a obra pode ser encontrada.</li>
+        </ul>
+      </section>
+
+      <!-- ====================================================
+      3 — SOBRE OS LINKS
+      ==================================================== -->
+
+      <section class="suggestion-instruction-block">
+        <h3>🔗 Por que é necessário informar os links?</h3>
+
+        <p>
+          O MAHANIMO não hospeda diretamente os episódios, capítulos ou
+          conteúdos das obras.
+        </p>
+
+        <p>
+          O objetivo dos links é indicar em quais plataformas a obra pode ser
+          encontrada, permitindo que o conteúdo seja acessado diretamente por
+          meio da plataforma correspondente.
+        </p>
+
+        <p>
+          Por esse motivo, sempre que possível, informe os links das plataformas
+          onde a obra está disponível.
+        </p>
+
+        <p>
+          O link deve, de preferência, levar diretamente à página da obra ou à
+          página onde o conteúdo pode ser encontrado.
+        </p>
+      </section>
+
+      <!-- ====================================================
+      4 — PLATAFORMA COM UMA ÚNICA PÁGINA
+      ==================================================== -->
+
+      <section class="suggestion-instruction-block">
+        <h3>🌐 Plataforma com uma única página</h3>
+
+        <p>
+          Algumas plataformas possuem uma única página para toda a obra, onde é
+          possível acessar suas temporadas, episódios ou capítulos.
+        </p>
+
+        <p>Nesse caso, informe apenas o link principal da obra.</p>
+
+        <div class="suggestion-instruction-example">
+          <strong> Exemplo: </strong>
+
+          <p>
+            <strong> Obra: </strong>
+            Exemplo
+          </p>
+
+          <p>
+            <strong> Plataforma: </strong>
+            Exemplo
+          </p>
+
+          <p>
+            <strong> Link: </strong>
+
+            <code> https://exemplo.com/nome-da-obra </code>
+          </p>
+        </div>
+      </section>
+
+      <!-- ====================================================
+      5 — TEMPORADAS SEPARADAS
+      ==================================================== -->
+
+      <section class="suggestion-instruction-block">
+        <h3>📺 Plataformas com temporadas separadas</h3>
+
+        <p>
+          Algumas plataformas organizam cada temporada em uma página diferente.
+        </p>
+
+        <p>
+          Nesse caso, informe os links das temporadas separadamente e
+          identifique cada uma.
+        </p>
+
+        <div class="suggestion-instruction-example">
+          <strong> Exemplo: </strong>
+
+          <p>
+            <strong> Temporada 1: </strong>
+
+            <code> https://exemplo.com/nome-da-obra/temporada-1 </code>
+          </p>
+
+          <p>
+            <strong> Temporada 2: </strong>
+
+            <code> https://exemplo.com/nome-da-obra/temporada-2 </code>
+          </p>
+
+          <p>
+            <strong> Temporada 3: </strong>
+
+            <code> https://exemplo.com/nome-da-obra/temporada-3 </code>
+          </p>
+        </div>
+      </section>
+
+      <!-- ====================================================
+      6 — EPISÓDIOS OU CAPÍTULOS SEPARADOS
+      ==================================================== -->
+
+      <section class="suggestion-instruction-block">
+        <h3>📖 Plataformas com episódios ou capítulos separados</h3>
+
+        <p>
+          Não é necessário enviar o link de cada episódio ou capítulo
+          individualmente.
+        </p>
+
+        <p>
+          Sempre que possível, informe o link principal da obra ou da temporada.
+        </p>
+
+        <p>Por exemplo:</p>
+
+        <div class="suggestion-instruction-example">
+          <code> https://exemplo.com/nome-da-obra/temporada-1 </code>
+        </div>
+
+        <p>
+          Isso é suficiente quando a página permite acessar os episódios ou
+          capítulos daquela temporada.
+        </p>
+
+        <p>
+          Links individuais só deverão ser informados caso o formulário solicite
+          especificamente esse tipo de informação.
+        </p>
+      </section>
+
+      <!-- ====================================================
+      7 — COMO A SUGESTÃO SERÁ ENVIADA
+      ==================================================== -->
+
+      <section class="suggestion-instruction-block">
+        <h3>📥 Como sua sugestão será enviada?</h3>
+
+        <p>
+          Depois de preencher todas as informações solicitadas, você poderá
+          gerar um arquivo contendo os dados da sua sugestão.
+        </p>
+
+        <ol>
+          <li>Preencha o formulário com as informações da obra.</li>
+
+          <li>Confira se os dados estão corretos.</li>
+
+          <li>Gere o arquivo da sugestão.</li>
+
+          <li>Baixe o arquivo para o seu dispositivo.</li>
+
+          <li>Acesse o Discord oficial do MAHANIMO.</li>
+
+          <li>
+            Entre no canal
+            <strong> 📥・pendencias </strong>.
+          </li>
+
+          <li>Envie o arquivo gerado nesse canal.</li>
+
+          <li>Aguarde a análise da sugestão.</li>
+        </ol>
+      </section>
+
+      <!-- ====================================================
+      8 — O QUE ACONTECE COM A SUGESTÃO
+      ==================================================== -->
+
+      <section class="suggestion-instruction-block">
+        <h3>🔍 O que acontece com a minha sugestão?</h3>
+
+        <p>
+          Depois que o arquivo for enviado no canal de pendências, a sugestão
+          será analisada.
+        </p>
+
+        <p>
+          Durante a análise, as informações poderão ser verificadas e, se
+          necessário, poderão ser solicitados ajustes ou correções.
+        </p>
+
+        <h4>✅ Aprovada</h4>
+
+        <p>A obra poderá ser preparada para inclusão no MAHANIMO.</p>
+
+        <h4>❌ Recusada</h4>
+
+        <p>A sugestão não será incluída no projeto naquele momento.</p>
+
+        <p>
+          Uma sugestão pode ser recusada quando as informações estão incompletas
+          ou incorretas, os links não funcionam, os links não correspondem à
+          obra informada ou não existem informações suficientes para verificar a
+          sugestão.
+        </p>
+
+        <p>
+          <strong>
+            A aprovação não significa necessariamente que a obra será adicionada
+            imediatamente.
+          </strong>
+        </p>
+
+        <p>
+          Ela significa que a sugestão foi aceita para seguir o processo de
+          inclusão no projeto.
+        </p>
+      </section>
+
+      <!-- ====================================================
+      9 — ANTES DE GERAR O ARQUIVO
+      ==================================================== -->
+
+      <section class="suggestion-instruction-block">
+        <h3>⚠️ Antes de gerar o arquivo</h3>
+
+        <p>Antes de enviar sua sugestão, verifique se:</p>
+
+        <ul>
+          <li>O nome da obra está correto.</li>
+
+          <li>O tipo de conteúdo está correto.</li>
+
+          <li>Os gêneros estão corretos, quando aplicável.</li>
+
+          <li>O ano está correto, quando aplicável.</li>
+
+          <li>O status está correto.</li>
+
+          <li>Os links das plataformas estão corretos.</li>
+
+          <li>Os links correspondem à obra sugerida.</li>
+
+          <li>
+            As temporadas estão identificadas corretamente, quando necessário.
+          </li>
+
+          <li>As informações adicionais estão corretas.</li>
+        </ul>
+
+        <p>
+          Quanto mais completas e corretas forem as informações fornecidas, mais
+          fácil será realizar a análise da sugestão.
+        </p>
+      </section>
+
+      <!-- ====================================================
+      10 — IMPORTANTE SOBRE O ENVIO
+      ==================================================== -->
+
+      <section class="suggestion-instruction-block">
+        <h3>📢 Importante sobre o envio</h3>
+
+        <p>
+          O arquivo gerado pelo formulário não adiciona automaticamente uma obra
+          ao MAHANIMO.
+        </p>
+
+        <p>
+          Ele serve apenas para organizar e enviar sua sugestão para análise.
+        </p>
+
+        <div class="suggestion-instruction-flow">
+          <span> Você envia a sugestão </span>
+
+          <span> ↓ </span>
+
+          <span> Arquivo é gerado </span>
+
+          <span> ↓ </span>
+
+          <span> Você baixa o arquivo </span>
+
+          <span> ↓ </span>
+
+          <span> Você envia no Discord </span>
+
+          <span> ↓ </span>
+
+          <span> 📥・pendencias </span>
+
+          <span> ↓ </span>
+
+          <span> A sugestão é analisada </span>
+
+          <span> ↓ </span>
+
+          <span> Aprovada ou recusada </span>
+        </div>
+
+        <p>
+          💡 Enviar uma sugestão é uma forma de contribuir com o MAHANIMO, mas a
+          inclusão final depende da análise e dos critérios do projeto.
+        </p>
+      </section>
+    </div>
+
+    <!-- ======================================================
+    ÁREA DE CONFIRMAÇÃO
+    FICA FORA DA ÁREA DE ROLAGEM
+    ====================================================== -->
+
+    <footer class="suggestion-instructions-footer">
+      <label class="suggestion-instructions-confirmation">
+        <input type="checkbox" id="suggestionInstructionsConfirm" />
+
+        <span> Li e compreendi as instruções acima. </span>
+      </label>
+
+      <!-- ====================================================
+      CONTAGEM REGRESSIVA
+      ==================================================== -->
+
+      <p
+        class="suggestion-instructions-countdown"
+        id="suggestionInstructionsCountdown"
+      >
+        Você poderá continuar em
+        <strong> 5 </strong>
+        segundos.
+      </p>
+
+      <!-- ====================================================
+      BOTÃO CONTINUAR
+      ==================================================== -->
+
+      <button
+        type="button"
+        class="card-button"
+        id="suggestionInstructionsContinue"
+        disabled
+      >
+        Continuar
+      </button>
+    </footer>
+  </div>
+</div>

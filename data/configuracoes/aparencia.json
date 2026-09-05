@@ -1,0 +1,22 @@
+{
+  "id": "aparencia",
+  "titulo": "Aparência",
+  "descricao": "Configurações responsáveis pela aparência visual do MSA Projects.",
+
+  "tema": {
+    "padrao": "escuro",
+    "opcoes": [
+      "claro",
+      "escuro"
+    ]
+  },
+
+  "fundo": {
+    "tipo": "animado",
+    "opcoes": [
+      "animado",
+      "gradiente",
+      "solido"
+    ]
+  }
+}

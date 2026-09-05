@@ -1,0 +1,22 @@
+/* ==========================================================
+   MAHANIMO
+   Arquivo: layout.css
+   Função: Containers e estrutura geral de layout
+========================================================== */
+
+
+/* ==========================================================
+   CONTAINERS PRINCIPAIS
+========================================================== */
+
+.header-container,
+.hero-container,
+.section-container,
+.footer-container {
+  width: min(
+    calc(100% - 40px),
+    var(--container-width)
+  );
+
+  margin: 0 auto;
+}

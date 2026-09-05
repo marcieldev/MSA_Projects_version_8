@@ -1,0 +1,27 @@
+{
+  "id": "aprendizados",
+  "titulo": "Aprendizados",
+
+  "itens": [
+    {
+      "id": "arquitetura",
+      "titulo": "Arquitetura de sistemas",
+      "descricao": "Organização de sistemas, componentes e responsabilidades.",
+      "data": "2026-08-29"
+    },
+
+    {
+      "id": "organizacao-projeto",
+      "titulo": "Organização de projetos",
+      "descricao": "Estruturação de pastas, arquivos e responsabilidades.",
+      "data": "2026-08-29"
+    },
+
+    {
+      "id": "json",
+      "titulo": "Manipulação de JSON",
+      "descricao": "Organização e utilização de dados estruturados em arquivos JSON.",
+      "data": "2026-08-29"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "tipo": "biografia_desenvolvedor",
+
+  "ultimaAtualizacao": "2026-09-03",
+
+  "perfil": {
+    "nome": "Marciel S. Almeida",
+    "titulo": "Estudante de Tecnologia da Informação e Desenvolvedor em formação",
+    "descricao": "Estudante da área de Tecnologia da Informação, interessado em desenvolvimento de software, desenvolvimento web, programação e construção de projetos próprios."
+  },
+
+  "objetivo": {
+    "principal": "Desenvolver conhecimentos sólidos em Tecnologia da Informação e evoluir continuamente como desenvolvedor.",
+    "descricao": "Construir uma base consistente por meio da formação acadêmica, estudos externos, projetos pessoais e prática de desenvolvimento."
+  },
+
+  "formacao": {
+    "curso": "Engenharia de Software",
+    "instituicao": "Estacio",
+    "inicio": "2025",
+    "previsaoConclusao": "2029",
+    "status": "em-andamento"
+  },
+
+  "interesses": [
+    "Desenvolvimento de software",
+    "Desenvolvimento web",
+    "Programação",
+    "Arquitetura de sistemas",
+    "Banco de dados",
+    "Tecnologia da Informação"
+  ],
+
+  "areasDeInteresse": [
+    "Desenvolvimento Web",
+    "Desenvolvimento de Software",
+    "Programação",
+    "Arquitetura de Sistemas",
+    "Engenharia de Software"
+  ],
+
+  "tecnologiasDeInteresse": [
+    "Java",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "SQL"
+  ],
+
+  "formaDeAprendizado": [
+    "Formação acadêmica",
+    "Cursos externos",
+    "Estudos independentes",
+    "Projetos pessoais",
+    "Prática de programação",
+    "Pesquisa e documentação"
+  ],
+
+  "filosofia": "Aprender por meio da prática, compreender os fundamentos e evoluir continuamente por meio da construção de projetos e da resolução de problemas.",
+
+  "trajetoria": [
+    {
+      "periodo": "2025",
+      "titulo": "Início da formação acadêmica",
+      "descricao": "Início dos estudos acadêmicos na área de Tecnologia da Informação."
+    },
+    {
+      "periodo": "2025-2026",
+      "titulo": "Desenvolvimento da base técnica",
+      "descricao": "Estudo de programação, desenvolvimento web, banco de dados, redes, arquitetura, engenharia de usabilidade, requisitos e outros fundamentos da área."
+    },
+    {
+      "periodo": "2026",
+      "titulo": "Aprofundamento em desenvolvimento",
+      "descricao": "Continuidade da formação acadêmica e desenvolvimento de projetos próprios, buscando aplicar na prática os conhecimentos adquiridos."
+    }
+  ],
+
+  "observacoes": "Ainda tenho certas dificuldades mas estou aprendendo para evoluir profissionalmente",
+  "observacoesSobreOqueMeImpediDeEvolui": "No momento eu consigo absorver o conhecimento ou arquitetar o projeto mesmo que de forma simples mas consigo pensar sem problme mas, quando vou fazer algo na prática eu travo mesmo que eu tenho o conhecimento de forma brevia, no momento estou tentando resolucionar sobre isso de min!"
+}

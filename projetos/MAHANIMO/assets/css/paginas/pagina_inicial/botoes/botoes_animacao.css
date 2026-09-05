@@ -1,0 +1,25 @@
+/* ===========================
+   BOTÕES - ANIMAÇÃO
+=========================== */
+
+.btn-primary:hover{
+
+    background:#7D4DFF;
+    transform:translateY(-3px);
+    box-shadow:
+
+        0 16px 35px rgba(108,59,255,.45);
+}
+
+.btn-secondary:hover{
+
+    background:#6C3BFF;
+    color:#FFFFFF;
+    transform:translateY(-3px);
+}
+
+.btn-primary:active,
+.btn-secondary:active{
+
+    transform:scale(.98);
+}

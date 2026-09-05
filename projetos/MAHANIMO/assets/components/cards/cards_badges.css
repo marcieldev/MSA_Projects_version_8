@@ -1,0 +1,76 @@
+/* ==========================================================
+Projeto.....: MAHANIMO
+Arquivo.....: cards_badges.css
+Descrição...: Badges das Capas dos Cards
+Autor.......: OpenAI + Marciel
+Versão......: 0.1
+========================================================== */
+
+
+/* ===========================
+   BADGE DO TIPO DA OBRA
+=========================== */
+
+.card-type{
+
+    position:absolute;
+    top:12px;
+    left:12px;
+    padding:6px 12px;
+    border-radius:30px;
+    background:#6C3BFF;
+    color:#FFF;
+    font-size:.78rem;
+    font-weight:600;
+    z-index:2;
+}
+
+
+/* ===========================
+   BADGE - ANIME
+=========================== */
+
+.card-type.anime{
+
+    background:#6C3BFF;
+}
+
+
+/* ===========================
+   BADGE - MANGÁ
+=========================== */
+
+.card-type.manga{
+
+    background:#2F80ED;
+}
+
+
+/* ===========================
+   BADGE - MANHWA
+=========================== */
+
+.card-type.manhwa{
+
+    background:#FF8A00;
+}
+
+
+/* ===========================
+   BADGE - FILME
+=========================== */
+
+.card-type.filme{
+
+    background:#E53935;
+}
+
+
+/* ===========================
+   BADGE - NOVEL
+=========================== */
+
+.card-type.novel{
+
+    background:#2EAF5D;
+}

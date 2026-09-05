@@ -1,0 +1,38 @@
+{
+  "id": "etapas",
+  "titulo": "Etapas do desenvolvimento",
+
+  "etapas": [
+    {
+      "numero": 1,
+      "id": "analise",
+      "titulo": "Análise",
+      "descricao": "Entendimento do problema, definição dos objetivos e planejamento inicial.",
+      "status": "concluida"
+    },
+
+    {
+      "numero": 2,
+      "id": "desenvolvimento",
+      "titulo": "Desenvolvimento",
+      "descricao": "Implementação, experimentação e construção das soluções.",
+      "status": "em-andamento"
+    },
+
+    {
+      "numero": 3,
+      "id": "aprendizado",
+      "titulo": "Aprendizado",
+      "descricao": "Registro dos conhecimentos, decisões e dificuldades encontradas.",
+      "status": "em-andamento"
+    },
+
+    {
+      "numero": 4,
+      "id": "evolucao",
+      "titulo": "Evolução",
+      "descricao": "Comparação entre versões e identificação dos próximos passos.",
+      "status": "em-andamento"
+    }
+  ]
+}

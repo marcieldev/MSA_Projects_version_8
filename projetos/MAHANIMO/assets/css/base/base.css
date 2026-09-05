@@ -1,0 +1,18 @@
+/* ==================================================
+   BASE
+================================================== */
+
+html{
+
+    scroll-behavior:smooth;
+}
+
+body{
+
+    overflow-x:hidden;
+}
+
+section{
+
+    position:relative;
+}

@@ -1,0 +1,20 @@
+/* ===========================
+   BOTÕES - APARÊNCIA
+=========================== */
+
+.btn-primary{
+
+    background:#6C3BFF;
+    color:#FFFFFF;
+    border:none;
+    box-shadow:
+
+        0 10px 25px rgba(108,59,255,.35);
+}
+
+.btn-secondary{
+
+    background:transparent;
+    color:#FFFFFF;
+    border:2px solid #6C3BFF;
+}

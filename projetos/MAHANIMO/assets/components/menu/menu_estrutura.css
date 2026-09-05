@@ -1,0 +1,49 @@
+/* ===========================
+   MENU - ESTRUTURA
+=========================== */
+
+header{
+
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1000;
+}
+
+header .container{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:80px;
+}
+
+.logo{
+
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+}
+
+nav ul{
+
+    display:flex;
+    align-items:center;
+    gap:18px;
+    list-style:none;
+}
+
+nav li{
+
+    display:flex;
+}
+
+nav a{
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:12px 20px;
+    border-radius:10px;
+}

@@ -1,0 +1,9 @@
+{
+  "tipo": "indice_categoria_projetos",
+  "versao": "1.0",
+  "inicial": "L",
+
+  "categorias": [],
+
+  "observacoes": "A inicial L representa a primeira letra da categoria do projeto. Atualmente não existem categorias cadastradas nesta inicial."
+}

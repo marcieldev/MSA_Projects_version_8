@@ -1,0 +1,75 @@
+/* ===========================
+SEÇÃO SOBRE / BEM-VINDO
+=========================== */
+
+#about {
+    padding:90px 0;
+}
+
+/* ===========================
+CONTEÚDO DA CAIXA
+=========================== */
+
+.about-box {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* ==========================================================
+SOBRE - APARÊNCIA
+========================================================== */
+
+.about-box {
+    background:
+        linear-gradient(
+            135deg,
+            rgba(108, 59, 255, .10),
+            rgba(24, 28, 39, .95)
+        );
+
+    border: 1px solid rgba(108, 59, 255, .25);
+
+    border-radius: 20px;
+
+    padding: 35px;
+
+    box-shadow:
+        0 20px 50px rgba(0, 0, 0, .25),
+        0 0 35px rgba(108, 59, 255, .08);
+
+    color: #D8DCE5;
+}
+
+.about-box h2 {
+    margin-bottom: 20px;
+
+    color: #FFFFFF;
+
+    font-size: 1.8rem;
+
+    text-shadow:
+        0 0 20px rgba(108, 59, 255, .35);
+}
+
+.about-box p {
+    color: #AEB5C4;
+
+    font-size: 1rem;
+
+    line-height: 1.7;
+
+    margin-bottom: 18px;
+}
+
+.about-box strong {
+    color: #FFFFFF;
+}
+
+.about-warning {
+    padding-top: 18px;
+
+    border-top:
+        1px solid
+        rgba(255, 255, 255, .08);
+}

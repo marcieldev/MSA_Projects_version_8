@@ -1,0 +1,88 @@
+{
+  "tipo": "experiencias_pessoais",
+
+  "ultimaAtualizacao": "2026-09-03",
+
+  "descricao": "Registro de experiências, projetos e atividades desenvolvidas por iniciativa própria, fora de uma experiência profissional formal na área de Tecnologia da Informação.",
+
+  "experiencias": [
+    {
+      "id": "msa-projects",
+      "titulo": "MSA Projects",
+      "tipo": "projeto-pessoal",
+
+      "periodo": {
+        "inicio": "2026",
+        "fim": null,
+        "status": "em-desenvolvimento"
+      },
+
+      "descricao": "Projeto pessoal criado para organizar, apresentar e registrar projetos, conhecimentos, estudos e experiências relacionadas à minha trajetória na área de Tecnologia da Informação.",
+
+      "objetivo": "Construir uma plataforma própria capaz de organizar projetos, estudos, conhecimentos, experiências e informações relacionadas à minha evolução como desenvolvedor.",
+
+      "motivacao": "Criar um espaço próprio para registrar minha evolução, organizar meus projetos e transformar meus estudos em algo prático e documentado.",
+
+      "participacao": {
+        "autorPrincipal": true,
+        "auxilioIA": true,
+        "descricao": "Projeto desenvolvido por mim com auxílio de inteligência artificial durante etapas de planejamento, organização, desenvolvimento, análise, resolução de problemas e revisão."
+      },
+
+      "tecnologias": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "JSON"
+      ],
+
+      "conhecimentosAplicados": [
+        "Desenvolvimento Web",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Organização de dados",
+        "Estruturação de projetos",
+        "Arquitetura modular"
+      ],
+
+      "conhecimentosAdquiridos": [
+        "Organização de dados utilizando JSON",
+        "Separação de responsabilidades entre módulos JavaScript",
+        "Separação de responsabilidades entre módulos CSS",
+        "Estruturação de projetos web",
+        "Organização de informações por categorias",
+        "Desenvolvimento de uma arquitetura escalável"
+      ],
+
+      "desafios": [
+        "Organizar uma grande quantidade de informações sem concentrar todos os dados em um único arquivo.",
+        "Criar uma estrutura de diretórios que permita adicionar novos projetos sem precisar modificar toda a aplicação.",
+        "Separar o carregamento dos dados do processamento e da utilização desses dados.",
+        "Criar uma estrutura preparada para crescimento futuro."
+      ],
+
+      "solucoes": [
+        "Separação dos dados em diferentes arquivos JSON.",
+        "Organização dos projetos por iniciais, categorias e subcategorias.",
+        "Separação entre carregamento e recebimento dos dados.",
+        "Criação de módulos JavaScript com responsabilidades específicas."
+      ],
+
+      "aprendizados": [
+        "Importância da separação de responsabilidades.",
+        "Organização e estruturação de dados.",
+        "Criação de estruturas escaláveis.",
+        "Uso de JSON como fonte de dados.",
+        "Organização modular de JavaScript.",
+        "Documentação do próprio processo de desenvolvimento."
+      ],
+
+      "resultado": "Projeto em desenvolvimento, com estrutura de dados organizada e arquitetura sendo construída de forma modular e escalável.",
+
+      "projetoRelacionado": "msa-projects",
+
+      "observacoes": "Este projeto atualmente teve outras versões anteriores que permitirão ver as falhas minhas e juntamente no manuseio das I.A na construção o que permitiu refazer o projeto mais de 1 vez para compreender certos fundamentos para criar um site sólido!"
+    }
+  ]
+}

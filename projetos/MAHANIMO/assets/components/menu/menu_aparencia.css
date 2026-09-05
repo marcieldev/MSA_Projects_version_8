@@ -1,0 +1,42 @@
+/* ===========================
+   MENU - APARÊNCIA
+=========================== */
+
+header{
+
+    background:rgba(10,12,18,.75);
+    backdrop-filter:blur(18px);
+    border-bottom:1px solid rgba(255,255,255,.05);
+}
+
+.logo{
+
+    font-size:2rem;
+    font-weight:700;
+    color:#FFFFFF;
+}
+
+.logo span{
+
+    color:#6C3BFF;
+}
+
+nav a{
+
+    color:#D8DCE5;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+nav a:hover{
+
+    background:#6C3BFF;
+    color:#FFFFFF;
+}
+
+nav a.active{
+
+    background:#6C3BFF;
+    color:#FFFFFF;
+}

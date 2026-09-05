@@ -1,0 +1,25 @@
+{
+  "total": 4,
+  "itens": [
+    {
+      "id": "arquitetura",
+      "titulo": "Arquitetura",
+      "arquivo": "data/conhecimento/arquitetura.json"
+    },
+    {
+      "id": "desenvolvimento-web",
+      "titulo": "Desenvolvimento Web",
+      "arquivo": "data/conhecimento/desenvolvimento_web.json"
+    },
+    {
+      "id": "experiencia",
+      "titulo": "Experiência",
+      "arquivo": "data/conhecimento/experiencia.json"
+    },
+    {
+      "id": "programacao",
+      "titulo": "Programação",
+      "arquivo": "data/conhecimento/programacao.json"
+    }
+  ]
+}

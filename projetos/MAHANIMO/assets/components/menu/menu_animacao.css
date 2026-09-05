@@ -1,0 +1,32 @@
+/* ===========================
+   MENU - ANIMAÇÕES
+=========================== */
+
+.logo{
+
+    transition:.3s;
+}
+
+.logo:hover{
+
+    transform:scale(1.05);
+}
+
+nav a{
+
+    transition:
+
+        background .30s,
+        color .30s,
+        transform .30s;
+}
+
+nav a:hover{
+
+    transform:translateY(-2px);
+}
+
+header{
+
+    transition:.4s;
+}

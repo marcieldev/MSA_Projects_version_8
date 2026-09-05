@@ -1,0 +1,447 @@
+/* ==========================================================
+   MAHANIMO
+   Arquivo: responsivo.css
+   Função: Responsividade geral do site
+========================================================== */
+
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (max-width: 1000px) {
+
+  /* ========================================================
+     MENU
+  ======================================================== */
+
+  .navigation-list {
+    gap: 16px;
+  }
+
+
+  /* ========================================================
+     CATEGORIAS
+  ======================================================== */
+
+  .categories-grid {
+    grid-template-columns:
+      repeat(3, 1fr);
+  }
+
+
+  /* ========================================================
+     CARDS
+  ======================================================== */
+
+  .content-grid {
+    grid-template-columns:
+      repeat(3, 1fr);
+  }
+
+}
+
+
+/* ==========================================================
+   TABLET PEQUENO
+========================================================== */
+
+@media (max-width: 750px) {
+
+  /* ========================================================
+     HEADER
+  ======================================================== */
+
+  .header-container {
+    flex-wrap: wrap;
+  }
+
+  .main-navigation {
+    order: 3;
+    flex-basis: 100%;
+  }
+
+  .navigation-list {
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
+
+
+  /* ========================================================
+     HERO
+     
+     O HERO FICA OCULTO EM TELAS PEQUENAS
+  ======================================================== */
+
+  .hero-section {
+    display: none;
+  }
+
+
+  /* ========================================================
+     CATEGORIAS
+  ======================================================== */
+
+  .categories-grid {
+    grid-template-columns:
+      repeat(2, 1fr);
+  }
+
+
+  /* ========================================================
+     CARDS
+  ======================================================== */
+
+  .content-grid {
+    grid-template-columns:
+      repeat(2, 1fr);
+  }
+
+
+  /* ========================================================
+     RODAPÉ
+  ======================================================== */
+
+  .footer-container {
+    grid-template-columns:
+      1fr 1fr;
+  }
+
+}
+
+
+/* ==========================================================
+   CELULAR
+========================================================== */
+
+@media (max-width: 520px) {
+
+  /* ========================================================
+     CONTAINERS
+  ======================================================== */
+
+  .header-container,
+  .hero-container,
+  .section-container,
+  .footer-container {
+    width:
+      calc(100% - 24px);
+  }
+
+
+  /* ========================================================
+     HEADER
+  ======================================================== */
+
+  .header-container {
+    min-height: 64px;
+  }
+
+  .navigation-list {
+    gap: 20px;
+  }
+
+
+  /* ========================================================
+     HERO
+     
+     O HERO JÁ ESTÁ OCULTO PELO BREAKPOINT DE 750px
+  ======================================================== */
+
+
+  /* ========================================================
+     CATEGORIAS
+  ======================================================== */
+
+  .categories-grid {
+    grid-template-columns:
+      1fr;
+  }
+
+
+  /* ========================================================
+     CARDS
+  ======================================================== */
+
+  .content-grid {
+    grid-template-columns:
+      repeat(
+        2,
+        minmax(0, 1fr)
+      );
+
+    gap: 12px;
+  }
+
+  .card-image {
+    height: 220px;
+  }
+
+  .card-content {
+    padding: 12px;
+  }
+
+  .card-content h3 {
+    font-size: 0.9rem;
+  }
+
+  .card-content p {
+    font-size: 0.75rem;
+  }
+
+  .card-button {
+    min-height: 38px;
+    font-size: 0.75rem;
+  }
+
+
+  /* ========================================================
+     RODAPÉ
+  ======================================================== */
+
+  .footer-container {
+    grid-template-columns:
+      1fr;
+
+    gap: 35px;
+  }
+
+}
+
+/* ==========================================================
+CARDS HORIZONTAIS — HOME
+Tablet e celular
+========================================================== */
+
+@media (max-width: 1000px) {
+
+  .home-page .content-grid {
+    display: flex;
+    flex-wrap: nowrap;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    gap: 16px;
+
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+
+    -webkit-overflow-scrolling: touch;
+
+    cursor: grab;
+
+    scrollbar-width: none;
+  }
+
+
+  /* ========================================================
+  ESCONDE A BARRA DE ROLAGEM
+  ======================================================== */
+
+  .home-page .content-grid::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  /* ========================================================
+  CURSOR AO ARRASTAR
+  ======================================================== */
+
+  .home-page .content-grid:active {
+    cursor: grabbing;
+  }
+
+
+  /* ========================================================
+  TAMANHO DOS CARDS
+  ======================================================== */
+
+  .home-page .content-card {
+    flex: 0 0 calc((100% - 16px) / 2);
+
+    scroll-snap-align: start;
+  }
+
+}
+
+/* ==========================================================
+HOME — ANIMES
+Controle da quantidade de cards exibidos
+========================================================== */
+
+/* ==========================================================
+TELAS GRANDES
+1001px ou mais
+
+Mostra somente os 4 primeiros cards.
+Os demais ficam disponíveis na página completa.
+========================================================== */
+
+@media (min-width: 1001px) {
+
+  .home-page .anime-content-grid .content-card:nth-child(n + 5) {
+    display: none;
+  }
+
+}
+
+
+/* ==========================================================
+TABLET E CELULAR
+Até 1000px
+
+Exibe no máximo 10 cards na seção de ANIMES
+da página HOME.
+
+Os cards excedentes ao décimo ficam ocultos
+somente na HOME.
+
+A página completa de ANIMES continuará podendo
+exibir todos os cards.
+========================================================== */
+
+@media (max-width: 1000px) {
+
+  .home-page .anime-content-grid .content-card:nth-child(n + 11) {
+    display: none;
+  }
+
+}
+
+/* ==========================================================
+HOME — MANGÁS
+Controle da quantidade de cards exibidos
+========================================================== */
+
+@media (max-width: 1000px) {
+
+  .home-page .manga-content-grid .content-card:nth-child(n + 11) {
+    display: none;
+  }
+
+}
+
+
+/* ==========================================================
+HOME — MANHWAS
+Controle da quantidade de cards exibidos
+========================================================== */
+
+@media (max-width: 1000px) {
+
+  .home-page .manhwa-content-grid .content-card:nth-child(n + 11) {
+    display: none;
+  }
+
+}
+
+
+/* ==========================================================
+HOME — NOVELS
+Controle da quantidade de cards exibidos
+========================================================== */
+
+@media (max-width: 1000px) {
+
+  .home-page .novel-content-grid .content-card:nth-child(n + 11) {
+    display: none;
+  }
+
+}
+
+
+/* ==========================================================
+HOME — FILMES
+Controle da quantidade de cards exibidos
+========================================================== */
+
+@media (max-width: 1000px) {
+
+  .home-page .movie-content-grid .content-card:nth-child(n + 11) {
+    display: none;
+  }
+
+}
+
+/* ==========================================================
+HOME — DESTAQUES
+Telas grandes
+1001px ou mais
+
+Mostra somente os 4 primeiros cards.
+Os demais permanecem disponíveis futuramente
+na página completa de Destaques.
+========================================================== */
+
+@media (min-width: 1001px) {
+
+  .home-page .destaque-content-grid .content-card:nth-child(n + 5) {
+    display: none;
+  }
+
+}
+
+
+/* ==========================================================
+HOME — DESTAQUES
+Tablet e celular
+Até 1000px
+
+Permite visualizar no máximo 10 cards.
+Os cards excedentes ao décimo ficam ocultos.
+
+A regra é exclusiva da HOME e da seção DESTAQUES.
+========================================================== */
+
+@media (max-width: 1000px) {
+
+  .home-page .destaque-content-grid .content-card:nth-child(n + 11) {
+    display: none;
+  }
+
+}
+
+/* ==========================================================
+HOME — DESTAQUES
+Controle da quantidade de cards exibidos
+========================================================== */
+
+
+/* ==========================================================
+TELAS GRANDES
+1001px ou mais
+Mostra somente os 4 primeiros destaques.
+========================================================== */
+
+@media (min-width: 1001px) {
+
+  .home-page
+  .destaque-content-grid
+  .content-card:nth-child(n + 5) {
+
+    display: none;
+
+  }
+
+}
+
+
+/* ==========================================================
+TABLET E CELULAR
+Até 1000px
+Permite visualizar até 10 destaques.
+========================================================== */
+
+@media (max-width: 1000px) {
+
+  .home-page
+  .destaque-content-grid
+  .content-card:nth-child(n + 11) {
+
+    display: none;
+
+  }
+
+}

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Sobre o MSA Projects: propósito, arquitetura, aprendizado, evolução e roadmap do projeto.">
+<title>Sobre — MSA Projects</title>
+<link rel="stylesheet" href="assets/css/base/reset.css"><link rel="stylesheet" href="assets/css/base/variaveis.css"><link rel="stylesheet" href="assets/css/base/base.css">
+<link rel="stylesheet" href="assets/css/componentes/header.css"><link rel="stylesheet" href="assets/css/componentes/menu_navegacao_superior.css"><link rel="stylesheet" href="assets/css/componentes/footer.css"><link rel="stylesheet" href="assets/css/componentes/modais.css"><link rel="stylesheet" href="assets/css/responsivo.css"><link rel="stylesheet" href="assets/css/pagina/sobre/sobre.css">
+<script>try{const t=localStorage.getItem("msa-theme");document.documentElement.dataset.theme=(t==="light"||t==="dark")?t:"dark";document.documentElement.classList.toggle("high-contrast",localStorage.getItem("msa-contrast")==="1");document.documentElement.classList.toggle("no-motion",localStorage.getItem("msa-motion")==="1")}catch(e){document.documentElement.dataset.theme="dark"}</script></head>
+<body>
+<header class="site-header"><div class="header-container"><div class="header-brand"><a class="site-logo" href="index.html">MSA PROJECTS</a></div><div class="header-content"><div class="header-search"><form class="search-form" role="search"><label class="sr-only" for="global-search">Pesquisar</label><input id="global-search" name="q" class="search-input" type="search" placeholder="Pesquisar projetos..." autocomplete="off"><button class="search-button" type="submit">Buscar</button></form></div><nav class="main-navigation" id="main-navigation" aria-label="Navegação principal"><div id="main-navigation-links"></div></nav></div><div class="header-actions"><button class="menu-toggle" id="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-navigation">☰</button></div></div></header>
+<main class="sobre-page">
+<section class="sobre-hero"><span class="sobre-kicker">SOBRE O PROJETO · VERSÃO 0.1.0</span><h1>MSA Projects</h1><p class="lead">Portal pessoal para organização, apresentação e evolução dos meus projetos.</p><p class="lead">O <strong>MSA Projects</strong> é um portal pessoal criado para reunir, organizar e apresentar projetos, experimentos, ideias e experiências de desenvolvimento em um único ambiente.</p></section>
+<div class="sobre-grid">
+<article class="sobre-card"><h2>🎯 Objetivo</h2><p>Criar um ambiente centralizado para organizar, desenvolver e apresentar meus projetos de forma clara, organizada, expansível e de fácil manutenção.</p><p>A estrutura foi pensada para permitir diferentes tipos e categorias de projetos, sem limitar o sistema a uma quantidade fixa de classificações.</p><ul><li>Projetos Colaborativos</li><li>Projetos Educacionais</li><li>Projetos de Brincadeira</li><li>Projetos da Comunidade</li><li>Projetos dos Colaboradores</li><li>Projetos do Fundador</li><li>Projetos Acadêmicos</li><li>Projetos de Entretenimento</li><li>Projetos Experimentais</li></ul><p>As categorias não são definitivas e podem surgir conforme novos projetos, experiências e necessidades forem aparecendo.</p></article>
+<article class="sobre-card"><h2>🔄 Uma nova versão</h2><p>Esta versão nasceu de uma decisão importante: em vez de continuar adicionando funcionalidades à estrutura antiga, o projeto será reconstruído do zero com uma arquitetura mais organizada.</p><p>O MSA Projects original serviu como experiência prática inicial. A nova versão utiliza essas experiências para melhorar a organização dos dados, separar responsabilidades, facilitar a inclusão de novos projetos, criar componentes reutilizáveis e preparar o projeto para crescer.</p></article>
+</div>
+<section class="sobre-section"><h2>🧠 Aprendizado de arquitetura</h2><p>Um dos principais objetivos desta versão é aplicar, na prática, conhecimentos estudados em <strong>Arquitetura de Sistemas</strong>, especialmente a ideia de separação de responsabilidades presente no padrão <strong>MVC (Model–View–Controller)</strong>.</p><p>O projeto não utiliza um framework MVC tradicional. Em vez disso, os princípios do MVC são utilizados como referência arquitetural para organizar o frontend.</p><pre class="architecture">              MSA PROJECTS
+
+                   MVC
+                    │
+        ┌───────────┼───────────┐
+        │           │           │
+      Model       View      Controller
+        │           │           │
+       JSON      HTML/CSS       JS
+        │           │           │
+        └───────────┼───────────┘
+                    │
+               Aplicação</pre><div class="sobre-grid"><div><h3>M — Model</h3><p>Representado principalmente pelos arquivos JSON, que armazenam os dados dos projetos sem exigir que essas informações sejam registradas diretamente no HTML.</p></div><div><h3>V — View</h3><p>Representada principalmente por HTML e CSS. O HTML define a estrutura e o CSS define a aparência, sem precisar conhecer a origem dos dados.</p></div><div><h3>C — Controller</h3><p>Realizado principalmente pelo JavaScript, que atua como intermediário entre os dados e a interface, realizando carregamento, tratamento e preparação das informações.</p></div><div><h3>Princípio central</h3><blockquote>Quem apresenta os dados não precisa saber de onde eles vieram.</blockquote><p>Isso facilita futuras mudanças na origem dos dados sem obrigatoriamente exigir uma reconstrução da interface.</p></div></div></section>
+<section class="sobre-section"><h2>🏗 Arquitetura e organização</h2><p>A arquitetura do MSA Projects está sendo construída de forma modular, separando dados, lógica e interface.</p><pre class="architecture">Dados → JSON → JavaScript → HTML → CSS → Interface</pre><p>O CSS também é dividido por responsabilidade: <strong>base</strong> para fundamentos, <strong>components</strong> para componentes reutilizáveis e <strong>páginas</strong> para características específicas de cada tela.</p><p><strong>Regra principal:</strong> componentes definem como um componente deve aparecer; páginas definem como esses componentes são organizados dentro de uma página.</p></section>
+<section class="sobre-section"><h2>🧩 Componentes reutilizáveis</h2><p>A nova estrutura se preocupa com reutilização para evitar que cada página recrie os mesmos elementos.</p><ul><li>Header</li><li>Menu de navegação superior</li><li>Botões</li><li>Cards de projetos</li><li>Modais</li><li>Footer</li></ul></section>
+<section class="sobre-section"><h2>🗃️ Dados</h2><p>O projeto utiliza JSON para armazenar informações estruturadas. A intenção é evitar cadastrar os dados diretamente no HTML sempre que essas informações puderem ser tratadas como dados.</p><pre class="architecture">{
+  "nome": "Exemplo",
+  "categoria": "Projeto de Brincadeira",
+  "descricao": "Descrição do projeto"
+}</pre><p>A interface utiliza essas informações para construir os elementos necessários.</p></section>
+<section class="sobre-section"><h2>🗄️ Banco de dados</h2><p>Conforme definido no README desta versão, <strong>atualmente não será utilizado banco de dados</strong>. A proposta desta etapa é trabalhar com arquivos JSON como fonte de dados.</p><p>Isso também faz parte do aprendizado arquitetural do projeto. No futuro, caso exista necessidade real de utilizar banco de dados, API, backend ou sistema administrativo, a arquitetura poderá ser adaptada.</p><p>A utilização de JSON nesta versão não significa que a arquitetura precisa permanecer limitada a JSON.</p></section>
+<section class="sobre-section"><h2>🎨 Tecnologias</h2><ul><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>JSON</li></ul><h3>Possíveis tecnologias futuras</h3><ul><li>PHP</li><li>MySQL</li><li>API</li><li>Painel administrativo</li><li>Outras tecnologias conforme a necessidade do projeto</li></ul></section>
+<section class="sobre-section"><h2>📚 Documentação</h2><p>A documentação técnica é construída junto com o projeto e registra não apenas como o código funciona, mas também <strong>por que determinadas decisões foram tomadas</strong>.</p><p>Entre os assuntos documentados estão CSS, JavaScript, JSON, arquitetura, organização do projeto, padrões e decisões de desenvolvimento.</p></section>
+<section class="sobre-section"><h2>📈 Evolução do projeto</h2><pre class="architecture">Planejamento
+     ↓
+Estrutura
+     ↓
+Arquitetura
+     ↓
+Componentes
+     ↓
+Dados
+     ↓
+JavaScript
+     ↓
+Integração
+     ↓
+Interface
+     ↓
+Testes
+     ↓
+Evolução</pre><p>Cada etapa pode gerar ajustes nas anteriores. Isso faz parte do processo de desenvolvimento.</p></section>
+<section class="sobre-section"><h2>🔎 Diferenças em relação ao projeto anterior</h2><ul><li><strong>Estrutura mais simples →</strong> arquitetura mais organizada</li><li><strong>Dados mais próximos da interface →</strong> dados separados em JSON</li><li><strong>Maior dependência entre arquivos →</strong> separação de responsabilidades</li><li><strong>Menor reutilização →</strong> componentes reutilizáveis</li><li><strong>Crescimento mais manual →</strong> estrutura preparada para expansão</li><li><strong>CSS mais concentrado →</strong> CSS dividido por responsabilidade</li><li><strong>Menor documentação →</strong> documentação durante o desenvolvimento</li></ul><p>A intenção não é considerar a versão anterior como um erro. Ela foi uma etapa importante para entender quais problemas surgiriam conforme o projeto crescesse.</p></section>
+<section class="sobre-section"><h2>🎓 Projeto como experiência de aprendizado</h2><p>O MSA Projects também funciona como um projeto prático de aprendizado, aplicando conhecimentos relacionados a arquitetura de sistemas, organização de projetos, separação de responsabilidades, MVC, manipulação de JSON, JavaScript, HTML, CSS, componentização, documentação, manutenção e escalabilidade.</p><p>Dessa forma, o projeto não serve apenas para apresentar projetos. Ele também registra a evolução do conhecimento aplicado na prática.</p></section>
+<section class="sobre-section"><h2>📌 Status atual</h2><p>🟢 <strong>Em desenvolvimento</strong></p><p>A versão atual está sendo construída gradualmente, com as principais bases em desenvolvimento: arquitetura inicial, organização de pastas, componentes CSS, estrutura da Home, sistema de dados JSON, organização dos arquivos JavaScript e documentação técnica.</p></section>
+<section class="sobre-section"><h2>🎯 Roadmap</h2><ul class="roadmap"><li>✅ Reorganização inicial do projeto</li><li>✅ Definição das pastas</li><li>✅ Organização da camada CSS</li><li>✅ Componentização inicial</li><li>⬜ Estrutura completa da Home</li><li>⬜ Integração entre JSON e JavaScript</li><li>⬜ Integração completa dos projetos</li><li>⬜ Sistema de categorias</li><li>⬜ Sistema de colaboradores</li><li>⬜ Sistema de perfis</li><li>⬜ Página completa de projetos</li><li>⬜ Melhorias de responsividade</li><li>⬜ Melhorias de acessibilidade</li></ul></section>
+<section class="sobre-section"><h2>🤝 Contribuição</h2><p>O MSA Projects é um projeto pessoal. A estrutura poderá receber contribuições no futuro, caso essa possibilidade seja aberta.</p><p>Antes de contribuir, a documentação do projeto deve ser consultada e os padrões de organização definidos devem ser respeitados.</p></section>
+<section class="sobre-section"><h2>👨‍💻 Desenvolvedor</h2><p>Projeto idealizado e desenvolvido por <strong>Marciel S. Almeida</strong>.</p><p>O desenvolvimento conta com o <strong>ChatGPT como assistente de arquitetura, documentação, organização e desenvolvimento</strong>.</p></section>
+<section class="sobre-section"><h2>📜 Licença</h2><p>A licença do projeto será definida conforme a evolução do repositório.</p></section>
+<div class="sobre-final"><strong>MSA Projects — Criando ideias, experiências e projetos digitais.</strong><span>Versão 0.1.0 · Em desenvolvimento</span></div>
+</main>
+<footer class="site-footer"><div class="footer-container"><div class="footer-bottom"><p>© 2026 MSA Projects.</p><a href="index.html">Início</a></div></div></footer>
+<section class="modal-backdrop" id="settings-panel" hidden><div class="modal" role="dialog" aria-modal="true" aria-labelledby="settings-title"><div class="modal-header"><h2 id="settings-title">Configurações</h2><button class="modal-close" type="button" data-modal-close="settings-panel" aria-label="Fechar">×</button></div><div class="modal-content"><div class="setting"><label>Tema escuro <button class="switch" type="button" role="switch" aria-checked="true" data-setting="dark"></button></label><small>Alterna entre tema claro e escuro em todas as páginas.</small></div><div class="setting"><label>Alto contraste <button class="switch" type="button" role="switch" aria-checked="false" data-setting="contrast"></button></label><small>Aumenta o contraste visual da interface.</small></div><div class="setting"><label>Reduzir movimento <button class="switch" type="button" role="switch" aria-checked="false" data-setting="motion"></button></label><small>Reduz animações e transições.</small></div></div></div></section><script src="assets/js/components/site_global.js" defer></script><script src="assets/js/modal/modais.js" defer></script><script src="assets/js/modal/acessibilidade.js" defer></script><script src="assets/js/menu/menu_mobile.js" defer></script></body></html>

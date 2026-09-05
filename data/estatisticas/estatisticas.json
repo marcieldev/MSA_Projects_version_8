@@ -1,0 +1,18 @@
+{
+  "geradoEm": "automático",
+  "totalProjetos": 1,
+  "totalCategorias": 1,
+  "totalTecnologias": 4,
+  "categorias": [
+    "entretenimento"
+  ],
+  "tecnologias": [
+    "CSS3",
+    "HTML5",
+    "JSON",
+    "JavaScript"
+  ],
+  "porStatus": {
+    "em desenvolvimento": 1
+  }
+}

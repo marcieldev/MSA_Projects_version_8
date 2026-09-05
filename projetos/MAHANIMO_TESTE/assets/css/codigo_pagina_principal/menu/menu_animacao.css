@@ -1,0 +1,25 @@
+/* ==========================================================
+   MENU / HEADER — ANIMAÇÃO
+   Arquivo: menu_animacao.css
+========================================================== */
+
+/* LINKS */
+
+.navigation-link {
+  transition:
+    color var(--transition);
+}
+
+/* BOTÃO DE PESQUISA */
+
+.search-button {
+  transition:
+    background var(--transition),
+    transform var(--transition);
+}
+
+.search-button:hover {
+  background: var(--background-hover);
+
+  transform: scale(1.05);
+}

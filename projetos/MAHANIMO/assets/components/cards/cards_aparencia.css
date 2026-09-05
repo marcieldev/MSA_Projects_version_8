@@ -1,0 +1,153 @@
+/* ==========================================================
+Projeto.....: MAHANIMO
+Arquivo.....: cards_aparencia.css
+Descrição...: Aparência dos Cards
+Autor.......: OpenAI + Marciel
+Versão......: 0.6
+========================================================== */
+
+
+/* ===========================
+   CARD
+=========================== */
+
+.card{
+
+    background:#181C27;
+    border:1px solid rgba(255,255,255,.05);
+    border-radius:20px;
+}
+
+/* ===========================
+   TÍTULO
+=========================== */
+
+.card-title{
+
+    font-size:1.25rem;
+    color:#FFF;
+    font-weight:700;
+}
+
+/* ===========================
+   AVALIAÇÃO
+=========================== */
+
+.card-rating{
+
+    color:#FFD54A;
+    font-weight:700;
+}
+
+/* ===========================
+   GÊNEROS
+=========================== */
+
+.card-genres{
+
+    color:#AEB5C4;
+    font-size:.92rem;
+}
+
+/* ===========================
+   IDIOMA
+=========================== */
+
+.card-language{
+
+    display:inline-block;
+    width:max-content;
+    padding:5px 12px;
+    border-radius:25px;
+    background:#313752;
+    color:#FFF;
+    font-size:.80rem;
+}
+
+/* ===========================
+   STATUS
+=========================== */
+
+.card-status{
+
+    display:inline-flex;
+    width:max-content;
+    padding:6px 12px;
+    border-radius:25px;
+    font-size:.80rem;
+    font-weight:600;
+}
+
+/* ===========================
+   STATUS - CONCLUÍDO
+=========================== */
+
+.completed{
+
+    background:rgba(40,167,69,.15);
+    color:#3FD36A;
+}
+
+/* ===========================
+   PAINEL DE INFORMAÇÕES
+=========================== */
+
+.card-hover-info{
+
+    position:absolute;
+    inset:0;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    padding:24px;
+    background:rgba(10,12,18,.94);
+    color:#FFF;
+    opacity:0;
+    visibility:hidden;
+    transform:translateY(10px);
+    z-index:5;
+    overflow-y:auto;
+}
+
+/* ===========================
+   TÍTULO DO PAINEL
+=========================== */
+
+.card-hover-info h4{
+
+    margin-bottom:14px;
+    font-size:1.15rem;
+    color:#FFF;
+}
+
+/* ===========================
+   TEXTOS DO PAINEL
+=========================== */
+
+.card-hover-info p{
+
+    margin-bottom:8px;
+    color:#AEB5C4;
+    font-size:.84rem;
+    line-height:1.4;
+}
+
+/* ===========================
+   DESTAQUES
+=========================== */
+
+.card-hover-info strong{
+
+    color:#FFF;
+}
+
+/* ===========================
+   SINOPSE
+=========================== */
+
+.card-synopsis{
+
+    margin-top:8px;
+    padding-top:10px;
+    border-top:1px solid rgba(255,255,255,.1);
+}

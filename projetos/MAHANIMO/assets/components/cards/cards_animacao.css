@@ -1,0 +1,31 @@
+/* ==========================================================
+Projeto.....: MAHANIMO
+Arquivo.....: cards_animacao.css
+Descrição...: Animações dos Cards
+Autor.......: OpenAI + Marciel
+Versão......: 0.1
+========================================================== */
+
+
+/* ===========================
+   ANIMAÇÃO DO PAINEL
+=========================== */
+
+.card-hover-info{
+
+    transition:
+        opacity .3s ease,
+        visibility .3s ease,
+        transform .3s ease;
+}
+
+/* ===========================
+   ATIVAÇÃO AO PASSAR O MOUSE
+=========================== */
+
+.card:hover .card-hover-info{
+
+    opacity:1;
+    visibility:visible;
+    transform:translateY(0);
+}

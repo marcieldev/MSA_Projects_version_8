@@ -1,0 +1,9 @@
+{
+  "categorias": [
+    {
+      "id": "entretenimento",
+      "nome": "Entretenimento",
+      "caminho": "data/projetos/iniciais_E/entretenimento/index.json"
+    }
+  ]
+}

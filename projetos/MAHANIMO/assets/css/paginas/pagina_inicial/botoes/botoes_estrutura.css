@@ -1,0 +1,21 @@
+/* ===========================
+   BOTÕES - ESTRUTURA
+=========================== */
+
+.btn-primary,
+.btn-secondary{
+
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    min-width:180px;
+    height:52px;
+    padding:0 28px;
+    border-radius:999px;
+    font-size:1rem;
+    font-weight:600;
+    text-decoration:none;
+    cursor:pointer;
+    transition:all .3s ease;
+}

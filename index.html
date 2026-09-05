@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="pt-BR" data-msa-root="./">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="MSA Projects — projetos, conhecimento e evolução."
+    />
+    <title>MSA Projects</title>
+    <link rel="stylesheet" href="assets/css/base/reset.css" />
+    <link rel="stylesheet" href="assets/css/base/variaveis.css" />
+    <link rel="stylesheet" href="assets/css/base/base.css" />
+    <link rel="stylesheet" href="assets/css/componentes/fundo_ambiental.css" />
+    <link rel="stylesheet" href="assets/css/componentes/header.css" />
+    <link
+      rel="stylesheet"
+      href="assets/css/componentes/menu_navegacao_superior.css"
+    />
+    <link rel="stylesheet" href="assets/css/componentes/botoes.css" />
+    <link rel="stylesheet" href="assets/css/componentes/cards_projeto.css" />
+    <link rel="stylesheet" href="assets/css/componentes/footer.css" />
+    <link rel="stylesheet" href="assets/css/componentes/modais.css" />
+    <link rel="stylesheet" href="assets/css/pagina/home/estrutura_home.css" />
+    <link rel="stylesheet" href="assets/css/pagina/home/layout_home.css" />
+    <link rel="stylesheet" href="assets/css/pagina/home/aparencia_home.css" />
+    <link rel="stylesheet" href="assets/css/pagina/home/animacoes_home.css" />
+    <link rel="stylesheet" href="assets/css/pagina/home/modais_home.css" />
+    <link rel="stylesheet" href="assets/css/responsivo.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/componentes/perfil_fundador.css"
+    />
+    <script>
+      try {
+        const t = localStorage.getItem("msa-theme");
+        document.documentElement.dataset.theme =
+          t === "light" || t === "dark" ? t : "dark";
+        document.documentElement.classList.toggle(
+          "high-contrast",
+          localStorage.getItem("msa-contrast") === "1",
+        );
+        document.documentElement.classList.toggle(
+          "no-motion",
+          localStorage.getItem("msa-motion") === "1",
+        );
+      } catch (e) {
+        document.documentElement.dataset.theme = "dark";
+      }
+    </script>
+  </head>
+  <body class="home-page">
+    <a class="skip-link" href="#main-content">Pular para o conteúdo</a>
+    <header class="site-header">
+      <div class="header-container">
+        <div class="header-brand">
+          <a class="site-logo" href="index.html">MSA PROJECTS</a>
+        </div>
+        <div class="header-content">
+          <div class="header-search">
+            <form
+              class="search-form"
+              role="search"
+              data-search-target="paginas/pagina_projetos/index.html"
+            >
+              <label class="sr-only" for="global-search">Pesquisar</label
+              ><input
+                id="global-search"
+                name="q"
+                class="search-input"
+                type="search"
+                placeholder="Pesquisar projetos..."
+                autocomplete="off"
+              /><button class="search-button" type="submit">Buscar</button>
+            </form>
+          </div>
+          <nav
+            class="main-navigation"
+            id="main-navigation"
+            aria-label="Navegação principal"
+          >
+            <div id="main-navigation-links"></div>
+          </nav>
+        </div>
+        <div class="header-actions">
+          <button
+            class="menu-toggle"
+            id="menu-toggle"
+            type="button"
+            aria-label="Abrir menu"
+            aria-expanded="false"
+            aria-controls="main-navigation"
+          >
+            ☰
+          </button>
+        </div>
+      </div>
+    </header>
+    <main id="main-content" class="page-shell">
+      <div class="page-content">
+        <div class="site-layout">
+          <div class="project-main-content">
+            <section class="project-section home-hero-section">
+              <div class="hero">
+                <div class="hero-content">
+                  <p class="hero-label">PORTAL DE PROJETOS & CONHECIMENTO</p>
+                  <h1 id="home-title">MSA Projects</h1>
+                  <p class="hero-description" id="site-description">
+                    Um espaço para criar, experimentar e evoluir.
+                  </p>
+                  <p
+                    class="hero-featured-description"
+                    id="featured-project-description"
+                  >
+                    O projeto em destaque será carregado a partir do catálogo.
+                  </p>
+                  <div class="hero-actions">
+                    <a
+                      class="button button-primary"
+                      href="paginas/pagina_projetos/index.html"
+                      >Explorar projetos</a
+                    ><a class="button button-secondary" href="evolucao.html"
+                      >Ver evolução</a
+                    >
+                  </div>
+                </div>
+                <div
+                  class="hero-visual"
+                  id="featured-project-visual"
+                  aria-label="Projeto em destaque"
+                >
+                  <div class="featured-project-overlay">
+                    <span
+                      class="featured-project-category"
+                      id="featured-project-category"
+                      >Projeto</span
+                    >
+                    <div
+                      class="featured-project-mark"
+                      id="featured-project-mark"
+                    >
+                      MSA
+                    </div>
+                    <h2 id="featured-project-name">Projeto em destaque</h2>
+                    <p id="featured-project-title">Carregando projeto...</p>
+                    <div class="featured-project-actions">
+                      <a
+                        class="button button-secondary button-small"
+                        id="featured-project-details"
+                        href="#"
+                        >Ver detalhes</a
+                      >
+                      <a
+                        class="button button-primary button-small"
+                        id="featured-project-direct"
+                        href="#"
+                        hidden
+                        >Ver projeto</a
+                      >
+                    </div>
+                    <div class="featured-project-navigation">
+                      <div
+                        id="featured-project-dots"
+                        class="featured-project-dots"
+                        aria-label="Projetos em destaque"
+                      ></div>
+                      <span
+                        id="featured-project-counter"
+                        class="featured-project-counter"
+                        hidden
+                      ></span>
+                      <div
+                        id="featured-project-controls"
+                        class="featured-project-controls"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="project-section" id="overview">
+              <div class="section-heading">
+                <span class="section-label">VISÃO GERAL</span>
+                <h2>Um portal que acompanha a construção</h2>
+                <p class="section-description">
+                  Projetos, conhecimento, decisões e evolução reunidos em uma
+                  estrutura simples de manter.
+                </p>
+              </div>
+              <div class="home-overview-grid">
+                <article class="overview-card">
+                  <div class="overview-card-icon">◈</div>
+                  <div class="overview-card-content">
+                    <h3>Projetos</h3>
+                    <p>
+                      Explore os projetos cadastrados e seus objetivos,
+                      tecnologias e aprendizados.
+                    </p>
+                  </div>
+                  <a
+                    class="overview-card-link"
+                    href="paginas/pagina_projetos/index.html"
+                    >Explorar projetos</a
+                  >
+                </article>
+                <article class="overview-card">
+                  <div class="overview-card-icon">◇</div>
+                  <div class="overview-card-content">
+                    <h3>Conhecimento</h3>
+                    <p>
+                      Veja os assuntos que estão sendo estudados e aplicados na
+                      prática.
+                    </p>
+                  </div>
+                  <a class="overview-card-link" href="#knowledge"
+                    >Explorar conhecimento</a
+                  >
+                </article>
+                <article class="overview-card">
+                  <div class="overview-card-icon">◎</div>
+                  <div class="overview-card-content">
+                    <h3>Evolução</h3>
+                    <p>
+                      Acompanhe etapas, aprendizados e mudanças ao longo do
+                      desenvolvimento.
+                    </p>
+                  </div>
+                  <a class="overview-card-link" href="evolucao.html"
+                    >Ver evolução</a
+                  >
+                </article>
+              </div>
+            </section>
+            <section class="project-section" id="featured-projects">
+              <div class="section-heading">
+                <span class="section-label">DESTAQUES</span>
+                <h2>Projetos em destaque</h2>
+                <p class="section-description">
+                  Conteúdos selecionados automaticamente a partir dos arquivos
+                  JSON.
+                </p>
+              </div>
+              <div id="featured-grid" class="home-featured-grid">
+                <div class="empty-state">Carregando projetos...</div>
+              </div>
+            </section>
+            <section class="project-section" id="recent-projects">
+              <div class="section-heading">
+                <span class="section-label">RECENTES</span>
+                <h2>Projetos recentes</h2>
+                <p class="section-description">
+                  Os projetos cadastrados mais recentemente no catálogo.
+                </p>
+              </div>
+              <div id="recent-grid" class="home-projects-grid">
+                <div class="empty-state">Carregando projetos...</div>
+              </div>
+            </section>
+            <section class="project-section" id="knowledge">
+              <div class="section-heading">
+                <span class="section-label">CONHECIMENTO</span>
+                <h2>O que está sendo construído junto com os projetos?</h2>
+              </div>
+              <div id="knowledge-grid" class="content-grid">
+                <article class="info-card"><p>Carregando...</p></article>
+              </div>
+            </section>
+            <section class="project-section" id="evolution">
+              <div class="section-heading">
+                <span class="section-label">EVOLUÇÃO</span>
+                <h2>O desenvolvimento é parte do resultado</h2>
+                <p class="section-description">
+                  As etapas abaixo vêm dos dados do projeto e podem evoluir sem
+                  reescrever a página.
+                </p>
+              </div>
+              <div id="evolution-grid" class="evolution-preview"></div>
+            </section>
+          </div>
+          <aside
+            class="profile-sidebar"
+            aria-label="Perfil do fundador e visão rápida do catálogo"
+          >
+            <div class="profile-block">
+              <img
+                class="profile-avatar"
+                data-founder-photo
+                src="assets/img/foto_perfil_1/1.jpg"
+                alt="Foto do fundador"
+              />
+              <span class="profile-kicker">POR TRÁS DOS PROJETOS</span>
+              <h2 data-founder-name>Fundador</h2>
+              <p class="profile-founder-title" data-founder-title>
+                Carregando perfil...
+              </p>
+              <p data-founder-description></p>
+              <a
+                class="button button-primary"
+                href="paginas/fundador/index.html"
+              >
+                Conhecer o fundador
+              </a>
+            </div>
+            <div class="profile-mini-list">
+              <div>
+                <span>Formação</span
+                ><strong data-founder-formation>Engenharia de Software</strong>
+              </div>
+              <div><span>Foco</span><strong>Desenvolvimento</strong></div>
+              <div>
+                <span>Estado</span
+                ><strong data-founder-status>Em evolução</strong>
+              </div>
+            </div>
+            <div class="sidebar-catalog">
+              <span class="profile-kicker">CATÁLOGO</span>
+              <h3>Visão rápida</h3>
+              <div class="sidebar-stats">
+                <div>
+                  <strong id="sidebar-stat-projects">0</strong
+                  ><span>Projetos</span>
+                </div>
+                <div>
+                  <strong id="sidebar-stat-categories">0</strong
+                  ><span>Categorias</span>
+                </div>
+                <div>
+                  <strong id="sidebar-stat-tech">0</strong
+                  ><span>Tecnologias</span>
+                </div>
+                <div>
+                  <strong id="sidebar-stat-status">0</strong
+                  ><span>Em desenvolvimento</span>
+                </div>
+              </div>
+              <a
+                class="sidebar-catalog-link"
+                href="paginas/pagina_projetos/index.html"
+                >Ver catálogo completo →</a
+              >
+            </div>
+            <div class="sidebar-founder-data">
+              <span class="profile-kicker">REGISTROS</span>
+              <div>
+                <strong id="sidebar-experience-count">0</strong
+                ><span>Experiências pessoais</span>
+              </div>
+              <div>
+                <strong id="sidebar-discipline-count">0</strong
+                ><span>Disciplinas acadêmicas</span>
+              </div>
+              <div>
+                <strong id="sidebar-study-count">0</strong
+                ><span>Estudos externos</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <a class="site-logo" href="index.html">MSA PROJECTS</a>
+            <p id="site-slogan">Projetos, ideias, experiências e evolução.</p>
+          </div>
+          <nav class="footer-navigation" aria-label="Rodapé">
+            <a href="index.html">Início</a
+            ><a href="paginas/pagina_projetos/index.html">Projetos</a
+            ><a href="sobre.html">Sobre</a><a href="evolucao.html">Evolução</a>
+          </nav>
+        </div>
+        <div class="footer-bottom">
+          <p>© <span id="site-year">2026</span> MSA Projects.</p>
+          <p>Projeto em evolução.</p>
+        </div>
+      </div>
+    </footer>
+    <section class="modal-backdrop" id="settings-panel" hidden>
+      <div
+        class="modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="settings-title"
+      >
+        <div class="modal-header">
+          <h2 id="settings-title">Configurações</h2>
+          <button
+            class="modal-close"
+            type="button"
+            data-modal-close="settings-panel"
+            aria-label="Fechar"
+          >
+            ×
+          </button>
+        </div>
+        <div class="modal-content">
+          <div class="setting">
+            <label
+              >Tema escuro
+              <button
+                class="switch"
+                type="button"
+                role="switch"
+                aria-checked="true"
+                data-setting="dark"
+              ></button></label
+            ><small>Alterna entre tema claro e escuro.</small>
+          </div>
+          <div class="setting">
+            <label
+              >Alto contraste
+              <button
+                class="switch"
+                type="button"
+                role="switch"
+                aria-checked="false"
+                data-setting="contrast"
+              ></button></label
+            ><small>Aumenta o contraste visual da interface.</small>
+          </div>
+          <div class="setting">
+            <label
+              >Reduzir movimento
+              <button
+                class="switch"
+                type="button"
+                role="switch"
+                aria-checked="false"
+                data-setting="motion"
+              ></button></label
+            ><small>Reduz animações e transições.</small>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="assets/js/components/site_global.js" defer></script>
+    <script src="assets/js/dados/carregador_dados.js" defer></script>
+    <script src="assets/js/dados/receber_dados.js" defer></script>
+    <script src="assets/js/dados/carregar_projetos.js" defer></script>
+    <script src="assets/js/menu/menu_mobile.js" defer></script>
+    <script src="assets/js/modal/modais.js" defer></script>
+    <script src="assets/js/modal/acessibilidade.js" defer></script>
+    <script src="assets/js/pesquisa/pesquisa.js" defer></script>
+    <script src="assets/js/pagina/home.js" defer></script>
+    <section class="modal-backdrop" id="founder-profile-modal" hidden>
+      <div
+        class="modal modal-founder"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="founder-profile-title"
+      ></div>
+    </section>
+    <script src="./assets/js/components/perfil_fundador.js" defer></script>
+  </body>
+</html>

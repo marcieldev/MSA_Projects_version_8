@@ -1,0 +1,35 @@
+/* ==========================================================
+   HERO — ANIMAÇÃO
+   Arquivo: hero_animacao.css
+========================================================== */
+
+
+/* ==========================================================
+   BOTÃO HERO
+========================================================== */
+
+.hero-button {
+  transition:
+    background var(--transition),
+    transform var(--transition);
+}
+
+
+.hero-button:hover {
+  background:
+    var(--primary-hover);
+
+  transform:
+    translateY(-2px);
+}
+
+
+/* ==========================================================
+   INDICADORES
+========================================================== */
+
+.hero-indicator {
+  transition:
+    background var(--transition),
+    width var(--transition);
+}

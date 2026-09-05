@@ -1,0 +1,144 @@
+{
+  "tipo": "indice_projetos",
+  "versao": "1.0",
+  "descricao": "Índice geral dos projetos do MSA Projects. Organiza os projetos por inicial da categoria.",
+  "ultimaAtualizacao": "2026-09-03",
+
+  "organizacao": {
+    "criterio": "inicial_da_categoria",
+    "observacao": "As iniciais representam a primeira letra da categoria do projeto, e não a primeira letra do nome do projeto."
+  },
+
+  "iniciais": [
+    {
+      "id": "iniciais_A",
+      "inicial": "A",
+      "caminho": "data/projetos/iniciais_A/index.json"
+    },
+    {
+      "id": "iniciais_B",
+      "inicial": "B",
+      "caminho": "data/projetos/iniciais_B/index.json"
+    },
+    {
+      "id": "iniciais_C",
+      "inicial": "C",
+      "caminho": "data/projetos/iniciais_C/index.json"
+    },
+    {
+      "id": "iniciais_D",
+      "inicial": "D",
+      "caminho": "data/projetos/iniciais_D/index.json"
+    },
+    {
+      "id": "iniciais_E",
+      "inicial": "E",
+      "caminho": "data/projetos/iniciais_E/index.json"
+    },
+    {
+      "id": "iniciais_F",
+      "inicial": "F",
+      "caminho": "data/projetos/iniciais_F/index.json"
+    },
+    {
+      "id": "iniciais_G",
+      "inicial": "G",
+      "caminho": "data/projetos/iniciais_G/index.json"
+    },
+    {
+      "id": "iniciais_H",
+      "inicial": "H",
+      "caminho": "data/projetos/iniciais_H/index.json"
+    },
+    {
+      "id": "iniciais_I",
+      "inicial": "I",
+      "caminho": "data/projetos/iniciais_I/index.json"
+    },
+    {
+      "id": "iniciais_J",
+      "inicial": "J",
+      "caminho": "data/projetos/iniciais_J/index.json"
+    },
+    {
+      "id": "iniciais_K",
+      "inicial": "K",
+      "caminho": "data/projetos/iniciais_K/index.json"
+    },
+    {
+      "id": "iniciais_L",
+      "inicial": "L",
+      "caminho": "data/projetos/iniciais_L/index.json"
+    },
+    {
+      "id": "iniciais_M",
+      "inicial": "M",
+      "caminho": "data/projetos/iniciais_M/index.json"
+    },
+    {
+      "id": "iniciais_N",
+      "inicial": "N",
+      "caminho": "data/projetos/iniciais_N/index.json"
+    },
+    {
+      "id": "iniciais_O",
+      "inicial": "O",
+      "caminho": "data/projetos/iniciais_O/index.json"
+    },
+    {
+      "id": "iniciais_P",
+      "inicial": "P",
+      "caminho": "data/projetos/iniciais_P/index.json"
+    },
+    {
+      "id": "iniciais_Q",
+      "inicial": "Q",
+      "caminho": "data/projetos/iniciais_Q/index.json"
+    },
+    {
+      "id": "iniciais_R",
+      "inicial": "R",
+      "caminho": "data/projetos/iniciais_R/index.json"
+    },
+    {
+      "id": "iniciais_S",
+      "inicial": "S",
+      "caminho": "data/projetos/iniciais_S/index.json"
+    },
+    {
+      "id": "iniciais_T",
+      "inicial": "T",
+      "caminho": "data/projetos/iniciais_T/index.json"
+    },
+    {
+      "id": "iniciais_U",
+      "inicial": "U",
+      "caminho": "data/projetos/iniciais_U/index.json"
+    },
+    {
+      "id": "iniciais_V",
+      "inicial": "V",
+      "caminho": "data/projetos/iniciais_V/index.json"
+    },
+    {
+      "id": "iniciais_W",
+      "inicial": "W",
+      "caminho": "data/projetos/iniciais_W/index.json"
+    },
+    {
+      "id": "iniciais_X",
+      "inicial": "X",
+      "caminho": "data/projetos/iniciais_X/index.json"
+    },
+    {
+      "id": "iniciais_Y",
+      "inicial": "Y",
+      "caminho": "data/projetos/iniciais_Y/index.json"
+    },
+    {
+      "id": "iniciais_Z",
+      "inicial": "Z",
+      "caminho": "data/projetos/iniciais_Z/index.json"
+    }
+  ]
+}

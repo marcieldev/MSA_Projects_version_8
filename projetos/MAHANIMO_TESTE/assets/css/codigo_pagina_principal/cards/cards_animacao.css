@@ -1,0 +1,78 @@
+/* ==========================================================
+   MAHANIMO
+   Arquivo: cards_animacao.css
+   Função: Animações e interações dos cards
+========================================================== */
+
+
+/* ==========================================================
+   ANIMAÇÃO DO CARD
+========================================================== */
+
+.content-card {
+  transition:
+    transform var(--transition),
+    border-color var(--transition),
+    background var(--transition);
+}
+
+
+/* ==========================================================
+   HOVER DO CARD
+========================================================== */
+
+.content-card:hover {
+  transform:
+    translateY(-6px);
+
+  border-color:
+    rgba(
+      124,
+      77,
+      255,
+      0.5
+    );
+
+  background:
+    var(--background-hover);
+}
+
+
+/* ==========================================================
+   ANIMAÇÃO DA IMAGEM
+========================================================== */
+
+.card-image img {
+  transition:
+    transform 0.5s ease;
+}
+
+
+/* ==========================================================
+   HOVER DA IMAGEM
+========================================================== */
+
+.content-card:hover .card-image img {
+  transform:
+    scale(1.05);
+}
+
+
+/* ==========================================================
+   ANIMAÇÃO DO BOTÃO
+========================================================== */
+
+.card-button {
+  transition:
+    background var(--transition);
+}
+
+
+/* ==========================================================
+   HOVER DO BOTÃO
+========================================================== */
+
+.card-button:hover {
+  background:
+    var(--primary-hover);
+}

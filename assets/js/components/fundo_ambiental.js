@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const v=document.querySelector('.ambient-background-video'); if(!v)return; v.play().catch(()=>{}); document.documentElement.classList.contains('no-motion')&&(v.pause(),v.currentTime=0)});

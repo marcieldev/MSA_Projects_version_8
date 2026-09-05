@@ -1,0 +1,38 @@
+/* ==========================================
+   VARIÁVEIS GLOBAIS
+========================================== */
+
+:root{
+
+    /* CORES */
+
+    --cor-fundo:#0F1117;
+    --cor-superficie:#1B2230;
+    --cor-superficie-hover:#252F42;
+    --cor-primaria:#6C3BFF;
+    --cor-primaria-hover:#8A63FF;
+    --cor-texto:#F2F2F2;
+    --cor-texto-secundario:#B8C0D0;
+    --cor-destaque:#FFD43B;
+    --cor-borda:#2B3446;
+
+    /* FONTES */
+
+    --fonte-principal:Arial, Helvetica, sans-serif;
+
+    /* SOMBRAS */
+
+    --sombra-pequena:0 4px 12px rgba(0,0,0,.18);
+    --sombra-media:0 8px 20px rgba(0,0,0,.25);
+    --sombra-grande:0 15px 35px rgba(0,0,0,.35);
+
+    /* BORDAS */
+
+    --radius-pequeno:8px;
+    --radius-medio:15px;
+    --radius-grande:25px;
+
+    /* TRANSIÇÕES */
+
+    --transicao:.30s ease;
+}

@@ -1,0 +1,24 @@
+/* ==========================================
+   LAYOUT
+========================================== */
+
+.container{
+
+    width:min(92%,1400px);
+    margin:0 auto;
+}
+
+.grid{
+
+    display:grid;
+}
+
+.flex{
+
+    display:flex;
+}
+
+.hidden{
+
+    display:none;
+}

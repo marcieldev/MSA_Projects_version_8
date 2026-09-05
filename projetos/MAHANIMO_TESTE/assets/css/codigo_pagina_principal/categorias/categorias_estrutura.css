@@ -1,0 +1,74 @@
+/* ==========================================================
+   MAHANIMO
+   Arquivo: categorias_estrutura.css
+   Função: Estrutura e posicionamento das categorias
+========================================================== */
+
+
+/* ==========================================================
+   SEÇÃO DE CATEGORIAS
+========================================================== */
+
+.categories-section {
+  padding: var(--section-space) 0;
+}
+
+
+/* ==========================================================
+   GRADE DE CATEGORIAS
+========================================================== */
+
+.categories-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      5,
+      minmax(0, 1fr)
+    );
+
+  gap: 20px;
+}
+
+
+/* ==========================================================
+   CARD DE CATEGORIA
+========================================================== */
+
+.category-card {
+  position: relative;
+
+  min-height: 220px;
+
+  overflow: hidden;
+}
+
+
+/* ==========================================================
+   IMAGEM DA CATEGORIA
+========================================================== */
+
+.category-image {
+  position: absolute;
+
+  inset: 0;
+}
+
+
+/* ==========================================================
+   CONTEÚDO DA CATEGORIA
+========================================================== */
+
+.category-content {
+  position: relative;
+
+  z-index: 2;
+
+  min-height: 220px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: flex-end;
+}

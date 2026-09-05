@@ -1,0 +1,40 @@
+@media(max-width:760px){.header-search{display:none}.menu-toggle{display:block}.header-content{justify-content:flex-end;min-width:0}.main-navigation{position:absolute;left:20px;right:20px;top:calc(var(--header) - 1px);display:none;padding:10px;border:1px solid var(--line);border-radius:12px;background:var(--surface);box-shadow:var(--shadow)}.main-navigation.is-open{display:block}.main-navigation>div{display:grid}.nav-link,.accessibility-toggle{width:100%;text-align:left}.page-content{width:min(calc(100% - 28px),var(--max))}.project-section{padding:52px 0}.hero{grid-template-columns:1fr;min-height:auto}.hero-visual{min-height:260px}.home-featured-grid,.home-overview-grid,.home-projects-grid,.content-grid{grid-template-columns:1fr}.detail-hero{grid-template-columns:1fr}.project-card-actions{flex-wrap:wrap}.project-card-actions .button{flex:1}.stats-grid{grid-template-columns:repeat(2,1fr)}.evolution-preview{grid-template-columns:1fr}}
+@media(max-width:460px){.stats-grid{grid-template-columns:1fr}.project-list-toolbar{align-items:stretch}.filters{display:grid}.filter-input,.filter-select{width:100%;min-width:0}.hero h1{font-size:3.2rem}}
+
+
+/* ============================================================
+   RESPONSIVIDADE v8 — evita esmagamento do cabeçalho e overflow
+   ============================================================ */
+html,body{max-width:100%;overflow-x:clip;}
+.header-container,.header-content{min-width:0;}
+@media (max-width:1100px) and (min-width:761px){
+  .header-container{width:min(calc(100% - 28px),1240px);gap:12px;}
+  .header-content{gap:10px;}
+  .header-search{max-width:260px;flex:1 1 220px;}
+  .search-form{gap:5px;}
+  .search-button{padding-inline:10px;}
+  .main-navigation{gap:1px;min-width:0;}
+  .main-navigation>div{min-width:0;}
+  .nav-link,.accessibility-toggle{padding:7px 6px;font-size:.76rem;}
+}
+@media (max-width:900px) and (min-width:761px){
+  .header-search{max-width:215px;}
+  .search-button{font-size:.78rem;padding-inline:8px;}
+  .nav-link,.accessibility-toggle{font-size:.71rem;padding-inline:5px;}
+}
+@media (max-width:760px){
+  .site-header{height:60px;}
+  .header-container{width:calc(100% - 24px);gap:10px;}
+  .header-content{justify-content:flex-end;}
+  .header-search{display:none;}
+  .main-navigation{left:12px;right:12px;top:59px;max-width:calc(100vw - 24px);box-sizing:border-box;}
+  .page-shell{padding-top:60px;}
+  .page-content{width:min(calc(100% - 24px),var(--max));max-width:100%;box-sizing:border-box;}
+  .site-layout,.hero,.home-overview-grid,.home-featured-grid,.home-projects-grid,.content-grid,.stats-grid,.evolution-preview{min-width:0;}
+  .hero-content,.hero-visual{width:100%;max-width:100%;box-sizing:border-box;}
+}
+@media (max-width:460px){
+  .header-container{width:calc(100% - 16px);} 
+  .site-logo{font-size:.78rem;letter-spacing:.08em;}
+  .site-logo::before{width:6px;height:6px;margin-right:6px;}
+}

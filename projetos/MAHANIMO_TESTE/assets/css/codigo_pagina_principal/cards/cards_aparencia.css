@@ -1,0 +1,111 @@
+/* ==========================================================
+   MAHANIMO
+   Arquivo: cards_aparencia.css
+   Função: Aparência visual dos cards
+========================================================== */
+
+
+/* ==========================================================
+   CARD
+========================================================== */
+
+.content-card {
+  border:
+    1px solid
+    var(--border-color);
+
+  border-radius:
+    var(--card-radius);
+
+  background:
+    var(--background-card);
+}
+
+
+/* ==========================================================
+   IMAGEM DO CARD
+========================================================== */
+
+.card-image {
+  background:
+    #202532;
+}
+
+
+/* ==========================================================
+   TIPO DO CARD
+========================================================== */
+
+.card-type {
+  position: absolute;
+
+  top: 12px;
+
+  left: 12px;
+
+  padding:
+    5px 10px;
+
+  border-radius:
+    6px;
+
+  background:
+    rgba(
+      15,
+      17,
+      23,
+      0.85
+    );
+
+  color:
+    #ffffff;
+
+  font-size:
+    0.7rem;
+
+  font-weight:
+    700;
+}
+
+
+/* ==========================================================
+   CONTEÚDO
+========================================================== */
+
+.card-content h3 {
+  font-size:
+    1.05rem;
+}
+
+.card-content p {
+  color:
+    var(--text-secondary);
+
+  font-size:
+    0.85rem;
+}
+
+
+/* ==========================================================
+   BOTÃO
+========================================================== */
+
+.card-button {
+  border:
+    0;
+
+  border-radius:
+    7px;
+
+  background:
+    var(--primary);
+
+  color:
+    #ffffff;
+
+  font-weight:
+    700;
+
+  cursor:
+    pointer;
+}

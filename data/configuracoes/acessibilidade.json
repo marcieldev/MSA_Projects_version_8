@@ -1,0 +1,28 @@
+{
+  "id": "acessibilidade",
+  "titulo": "Acessibilidade",
+  "descricao": "Configurações destinadas a melhorar a acessibilidade e a experiência de utilização do MSA Projects.",
+
+  "opcoes": {
+    "temaEscuro": {
+      "id": "dark-theme",
+      "nome": "Tema escuro",
+      "descricao": "Alterna entre a aparência clara e escura do site.",
+      "habilitado": false
+    },
+
+    "contraste": {
+      "id": "contrast",
+      "nome": "Contraste",
+      "descricao": "Aumenta o contraste dos elementos para facilitar a leitura.",
+      "habilitado": false
+    },
+
+    "movimentoReduzido": {
+      "id": "reduced-motion",
+      "nome": "Reduzir movimento",
+      "descricao": "Reduz ou desativa animações e transições da interface.",
+      "habilitado": false
+    }
+  }
+}
