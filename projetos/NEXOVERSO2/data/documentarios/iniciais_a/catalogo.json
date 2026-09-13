@@ -1,0 +1,31 @@
+{
+  "itens": [
+    {
+      "id": "a-401",
+      "titulo": "A Origem das Coisas",
+      "ano": 2024,
+      "generos": [
+        "Documentário",
+        "História"
+      ],
+      "sinopse": "Uma viagem pelas histórias por trás de objetos que fazem parte do cotidiano.",
+      "classificacao": "Livre",
+      "imagem": "assets/img/poster-aster.svg",
+      "fonte": {
+        "provedor": "Biblioteca local autorizada",
+        "creditos": "Crédito da mídia: informe aqui a fonte/licença responsável pelo conteúdo.",
+        "nome": "Fonte da obra",
+        "link": ""
+      },
+      "midia": {
+        "tipo": "link",
+        "destino": "externo",
+        "link": "",
+        "plataforma": "externo"
+      },
+      "categoria": "documentario",
+      "tipo_conteudo": "documentario"
+    }
+  ],
+  "categoria": "documentario"
+}

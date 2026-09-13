@@ -1,0 +1,134 @@
+{
+  "itens": [
+    {
+      "id": "a-201",
+      "titulo": "Aventuras no Quintal",
+      "ano": 2025,
+      "generos": [
+        "Animação",
+        "Família"
+      ],
+      "sinopse": "Amigos transformam uma tarde comum em uma grande aventura.",
+      "classificacao": "Livre",
+      "imagem": "assets/img/poster-quintal.svg",
+      "episodios": [
+        {
+          "numero": 1,
+          "titulo": "O mapa escondido",
+          "fonte": {
+            "nome": "Fonte da obra",
+            "link": ""
+          },
+          "midia": {
+            "tipo": "link",
+            "destino": "externo",
+            "link": "",
+            "plataforma": "externo"
+          },
+          "temporada": 1,
+          "subcategoria": "episodio"
+        }
+      ],
+      "fonte": {
+        "provedor": "Biblioteca local autorizada",
+        "creditos": "Crédito da mídia: informe aqui a fonte/licença responsável pelo conteúdo.",
+        "nome": "Fonte da obra",
+        "link": ""
+      },
+      "categoria": "desenho",
+      "subcategoria": "episodio"
+    },
+    {
+      "id": "desenho-aventuras-no-quintal-2025",
+      "titulo": "Aventuras no Quintal — Episódio de Teste",
+      "ano": 2025,
+      "categoria": "desenho",
+      "generos": [
+        "Animação",
+        "Família",
+        "Aventura"
+      ],
+      "sinopse": "Teste de desenho com conteúdo do tipo episódio.",
+      "classificacao": "Livre",
+      "imagem": "assets/img/poster-quintal.svg",
+      "episodios": [
+        {
+          "numero": 1,
+          "temporada": 1,
+          "titulo": "O mapa escondido",
+          "midia": {
+            "plataforma": "youtube",
+            "tipo": "playlist",
+            "destino": "externo",
+            "link": "https://www.youtube.com/watch?v=kHC0PQvSZ9Y&list=PLsn5dzA1IUZ3IRh0TkgZ2lE4Rbx7wcgDG"
+          },
+          "identificacao": null,
+          "exibir_thumbnail": true,
+          "subcategoria": "episodio"
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Canal de teste",
+          "link": "https://www.youtube.com/"
+        }
+      ],
+      "subcategoria": "episodio"
+    },
+    {
+      "id": "desenho-scooby-doo-compilado-teste",
+      "titulo": "Scooby-Doo — Compilado de Teste",
+      "ano": 2024,
+      "categoria": "desenho",
+      "generos": [
+        "Animação",
+        "Comédia",
+        "Mistério"
+      ],
+      "sinopse": "Teste para verificar como o catálogo apresenta um compilado.",
+      "classificacao": "Livre",
+      "imagem": "assets/img/poster-o-novo-show.svg",
+      "midia": {
+        "plataforma": "youtube",
+        "tipo": "video",
+        "destino": "externo",
+        "link": "https://www.youtube.com/watch?v=kHC0PQvSZ9Y"
+      },
+      "fontes": [
+        {
+          "nome": "YouTube — canal de teste",
+          "link": "https://www.youtube.com/"
+        }
+      ],
+      "subcategoria": "compilado"
+    },
+    {
+      "id": "desenho-especial-teste",
+      "titulo": "Desenho Especial — Teste de Conteúdo",
+      "ano": 2023,
+      "categoria": "desenho",
+      "generos": [
+        "Animação",
+        "Família",
+        "Fantasia"
+      ],
+      "sinopse": "Teste de um conteúdo de desenho marcado como especial.",
+      "classificacao": "Livre",
+      "imagem": "assets/img/poster-quintal.svg",
+      "midia": {
+        "plataforma": "externo",
+        "tipo": "pagina",
+        "destino": "externo",
+        "link": "https://www.youtube.com/"
+      },
+      "fontes": [
+        {
+          "nome": "Fonte de teste",
+          "link": "https://www.youtube.com/"
+        }
+      ],
+      "subcategoria": "especial"
+    }
+  ],
+  "categoria": "desenho"
+}

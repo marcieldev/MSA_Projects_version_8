@@ -1,0 +1,3 @@
+/* CONFIG — caminhos e constantes do projeto */
+export const DATA_FILES={config:'data/configuracao.json',alerts:'data/alertas.json',highlights:'data/destaques.json',community:'data/comunidade.json'};
+export const CATALOG_FILES=['data/desenhos/iniciais_a/catalogo.json','data/desenhos/iniciais_o/catalogo.json','data/documentarios/iniciais_a/catalogo.json','data/filmes/iniciais_a/catalogo.json','data/novelas/iniciais_a/catalogo.json','data/series/iniciais_a/catalogo.json','data/jogos/iniciais_e/catalogo.json'];

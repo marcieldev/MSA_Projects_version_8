@@ -1,0 +1,2 @@
+/* HEADER — somente superfície e estrutura do cabeçalho */
+.topbar{height:54px;border-bottom:1px solid rgba(145,167,202,.16);background:rgba(2,7,16,.96);position:sticky;top:0;z-index:30}.nav-shell{height:54px;max-width:1545px;width:calc(100% - 88px);margin:auto;display:flex;align-items:center}.brand{font-size:24px;font-weight:950;letter-spacing:.105em;margin-right:42px}.brand span{color:#00cfe9}.nav-tools{margin-left:auto;display:flex;align-items:center;gap:19px}.profile{border:1px solid #66758a;border-radius:50%;width:29px;height:29px}.profile svg{width:22px;height:22px}

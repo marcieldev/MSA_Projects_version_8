@@ -1,0 +1,33 @@
+{
+  "itens": [
+    {
+      "id": "jogo-ets2-trans-matrix-gameplay-teste",
+      "titulo": "TRANS MATRIX — Gameplay de Ônibus no ETS2",
+      "ano": 2026,
+      "categoria": "jogos",
+      "subcategoria": "gameplay",
+      "jogo": "Euro Truck Simulator 2",
+      "generos": [
+        "Simulação",
+        "Ônibus",
+        "ETS2"
+      ],
+      "sinopse": "Conteúdo de teste para validar a categoria Jogos, a subcategoria Gameplay e o filtro contextual por jogo.",
+      "classificacao": "Livre",
+      "imagem": "assets/img/poster-o-novo-show.svg",
+      "midia": {
+        "plataforma": "youtube",
+        "tipo": "playlist",
+        "destino": "externo",
+        "link": "https://www.youtube.com/watch?v=kHC0PQvSZ9Y&list=PLsn5dzA1IUZ3IRh0TkgZ2lE4Rbx7wcgDG"
+      },
+      "fontes": [
+        {
+          "nome": "Canal de teste",
+          "link": "https://www.youtube.com/"
+        }
+      ]
+    }
+  ],
+  "categoria": "jogos"
+}

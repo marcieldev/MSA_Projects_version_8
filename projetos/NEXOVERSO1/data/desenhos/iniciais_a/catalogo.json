@@ -1,0 +1,40 @@
+{
+  "tipo": "desenho",
+  "itens": [
+    {
+      "id": "a-201",
+      "titulo": "Aventuras no Quintal",
+      "ano": 2025,
+      "generos": [
+        "Animação",
+        "Família"
+      ],
+      "sinopse": "Amigos transformam uma tarde comum em uma grande aventura.",
+      "classificacao": "Livre",
+      "imagem": "assets/img/poster-quintal.svg",
+      "episodios": [
+        {
+          "numero": 1,
+          "titulo": "O mapa escondido",
+          "fonte": {
+            "nome": "Fonte da obra",
+            "link": ""
+          },
+          "midia": {
+            "tipo": "link",
+            "destino": "externo",
+            "link": "",
+            "formato": "video/mp4"
+          },
+          "temporada": 1
+        }
+      ],
+      "fonte": {
+        "provedor": "Biblioteca local autorizada",
+        "creditos": "Crédito da mídia: informe aqui a fonte/licença responsável pelo conteúdo.",
+        "nome": "Fonte da obra",
+        "link": ""
+      }
+    }
+  ]
+}

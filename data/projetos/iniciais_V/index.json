@@ -1,5 +1,9 @@
 {
-  "tipo": "indice_categoria_projetos",
-  "inicial": "V",
-  "categorias": []
+  "categorias": [
+    {
+      "id": "versoes-de-projeto",
+      "nome": "Versões de projeto",
+      "caminho": "data/projetos/iniciais_V/versoes_de_projeto/index.json"
+    }
+  ]
 }

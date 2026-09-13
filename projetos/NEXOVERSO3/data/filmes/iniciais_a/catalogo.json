@@ -1,0 +1,59 @@
+{
+  "itens": [
+    {
+      "id": "a-001",
+      "titulo": "A Cidade das Estrelas",
+      "ano": 2026,
+      "generos": [
+        "Drama",
+        "Ficção"
+      ],
+      "sinopse": "Um drama sobre escolhas, memória e novos começos.",
+      "classificacao": "12",
+      "imagem": "assets/img/poster-horizonte.svg",
+      "midia": {
+        "tipo": "link",
+        "destino": "externo",
+        "link": "",
+        "plataforma": "externo"
+      },
+      "fonte": {
+        "provedor": "Biblioteca local autorizada",
+        "creditos": "Crédito da mídia: informe aqui a fonte/licença responsável pelo conteúdo.",
+        "nome": "Fonte da obra",
+        "link": ""
+      },
+      "categoria": "filme",
+      "tipo_conteudo": "filme"
+    },
+    {
+      "id": "filme-lego-scooby-doo-hollywood-assombrada-2016",
+      "titulo": "LEGO Scooby-Doo! Hollywood Assombrada",
+      "ano": 2016,
+      "categoria": "filme",
+      "tipo_conteudo": "filme",
+      "generos": [
+        "Animação",
+        "Comédia",
+        "Família",
+        "Aventura"
+      ],
+      "sinopse": "Conteúdo de teste com mídia externa cadastrada diretamente no JSON.",
+      "classificacao": "Livre",
+      "imagem": "assets/img/poster-o-novo-show.svg",
+      "midia": {
+        "plataforma": "externo",
+        "tipo": "pagina",
+        "destino": "externo",
+        "link": "https://redecanais.af/lego-scooby-doo-hollywood-assombrada-dublado-2016-1080p_00f37cfca.html"
+      },
+      "fontes": [
+        {
+          "nome": "Fonte de teste",
+          "link": "https://redecanais.af/"
+        }
+      ]
+    }
+  ],
+  "categoria": "filme"
+}

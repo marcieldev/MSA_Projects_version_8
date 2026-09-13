@@ -1,0 +1,8 @@
+{
+  "descricao": "Ordem dos destaques exibidos no hero da página inicial. Edite este arquivo para adicionar, remover ou trocar a ordem.",
+  "destaques": [
+    "a-001",
+    "a-101",
+    "a-201"
+  ]
+}

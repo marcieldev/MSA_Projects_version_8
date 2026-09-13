@@ -1,0 +1,77 @@
+{
+  "tipo": "desenho",
+  "itens": [
+    {
+      "id": "o-201",
+      "titulo": "O Novo Show do Scooby-Doo e Scooby-Loo",
+      "ano": 1983,
+      "generos": [
+        "Animação",
+        "Comédia",
+        "Família"
+      ],
+      "sinopse": "Primeiro conteúdo de teste do NEXOVERSO para validar o cadastro de desenhos, a organização da mídia e a reprodução de episódios.",
+      "classificacao": "Livre",
+      "imagem": "assets/img/poster-o-novo-show.svg",
+      "episodios": [
+        {
+          "numero": 1,
+          "titulo": "VIAGEM INAUGURAL da TRANS MATRIX 🥰| ETS2 MOD BUS | G8 1800 DD | SIMULAÇÃO ao EXTREMO",
+          "temporada": 1,
+          "fonte": {
+            "nome": "Mídia de teste local",
+            "link": "https://www.youtube.com/watch?v=kHC0PQvSZ9Y&list=PLsn5dzA1IUZ3IRh0TkgZ2lE4Rbx7wcgDG"
+          },
+          "midia": {
+            "tipo": "link",
+            "destino": "externo",
+            "link": "https://www.youtube.com/watch?v=kHC0PQvSZ9Y&list=PLsn5dzA1IUZ3IRh0TkgZ2lE4Rbx7wcgDG",
+            "formato": "video/mp4"
+          },
+          "identificacao": null,
+          "exibir_thumbnail": true
+        },
+        {
+          "numero": 1,
+          "titulo": "VIAGEM INAUGURAL da TRANS MATRIX 🥰| ETS2 MOD BUS | G8 1800 DD | SIMULAÇÃO ao EXTREMO",
+          "temporada": 1,
+          "fonte": {
+            "nome": "Mídia de teste local",
+            "link": "https://www.youtube.com/watch?v=kHC0PQvSZ9Y&list=PLsn5dzA1IUZ3IRh0TkgZ2lE4Rbx7wcgDG"
+          },
+          "midia": {
+            "tipo": "link",
+            "destino": "externo",
+            "link": "https://www.youtube.com/watch?v=kHC0PQvSZ9Y&list=PLsn5dzA1IUZ3IRh0TkgZ2lE4Rbx7wcgDG",
+            "formato": "video/mp4"
+          },
+          "identificacao": "Temporada 1 • Episódio 1",
+          "exibir_thumbnail": true
+        },
+        {
+          "numero": 1,
+          "titulo": "VIAGEM INAUGURAL da TRANS MATRIX 🥰| ETS2 MOD BUS | G8 1800 DD | SIMULAÇÃO ao EXTREMO",
+          "temporada": 1,
+          "fonte": {
+            "nome": "Mídia de teste local",
+            "link": "https://www.youtube.com/watch?v=kHC0PQvSZ9Y&list=PLsn5dzA1IUZ3IRh0TkgZ2lE4Rbx7wcgDG"
+          },
+          "midia": {
+            "tipo": "link",
+            "destino": "externo",
+            "link": "https://www.youtube.com/watch?v=kHC0PQvSZ9Y&list=PLsn5dzA1IUZ3IRh0TkgZ2lE4Rbx7wcgDG",
+            "formato": "video/mp4"
+          },
+          "identificacao": "Teste personalizado",
+          "exibir_thumbnail": true
+        }
+      ],
+      "fonte": {
+        "provedor": "Mídia de teste local",
+        "creditos": "Arquivo utilizado para teste da estrutura de vídeos do NEXOVERSO.",
+        "nome": "Mídia de teste local",
+        "link": ""
+      }
+    }
+  ]
+}

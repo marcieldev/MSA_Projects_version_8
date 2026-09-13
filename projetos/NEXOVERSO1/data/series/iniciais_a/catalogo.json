@@ -1,0 +1,56 @@
+{
+  "tipo": "serie",
+  "itens": [
+    {
+      "id": "a-101",
+      "titulo": "Arquivo Aberto",
+      "ano": 2026,
+      "generos": [
+        "Drama",
+        "Mistério"
+      ],
+      "sinopse": "Uma equipe investiga documentos que deveriam ter permanecido esquecidos.",
+      "classificacao": "14",
+      "imagem": "assets/img/poster-codigo.svg",
+      "temporadas": 1,
+      "episodios": [
+        {
+          "numero": 1,
+          "titulo": "O primeiro arquivo",
+          "fonte": {
+            "nome": "Fonte da obra",
+            "link": ""
+          },
+          "midia": {
+            "tipo": "link",
+            "destino": "externo",
+            "link": "",
+            "formato": "video/mp4"
+          },
+          "temporada": 1
+        },
+        {
+          "numero": 2,
+          "titulo": "A segunda pista",
+          "fonte": {
+            "nome": "Fonte da obra",
+            "link": ""
+          },
+          "midia": {
+            "tipo": "link",
+            "destino": "externo",
+            "link": "",
+            "formato": "video/mp4"
+          },
+          "temporada": 1
+        }
+      ],
+      "fonte": {
+        "provedor": "Biblioteca local autorizada",
+        "creditos": "Crédito da mídia: informe aqui a fonte/licença responsável pelo conteúdo.",
+        "nome": "Fonte da obra",
+        "link": ""
+      }
+    }
+  ]
+}

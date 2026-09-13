@@ -1,0 +1,126 @@
+{
+  "categorias": [
+    {
+      "id": "filme",
+      "nome": "Filme"
+    },
+    {
+      "id": "serie",
+      "nome": "Série"
+    },
+    {
+      "id": "desenho",
+      "nome": "Desenho"
+    },
+    {
+      "id": "novela",
+      "nome": "Novela"
+    },
+    {
+      "id": "documentario",
+      "nome": "Documentário"
+    },
+    {
+      "id": "especial",
+      "nome": "Especial"
+    },
+    {
+      "id": "anime",
+      "nome": "Anime"
+    },
+    {
+      "id": "jogos",
+      "nome": "Jogos"
+    }
+  ],
+  "tipos_conteudo": [
+    {
+      "id": "filme",
+      "nome": "Filme"
+    },
+    {
+      "id": "episodio",
+      "nome": "Episódio"
+    },
+    {
+      "id": "especial",
+      "nome": "Especial"
+    },
+    {
+      "id": "compilado",
+      "nome": "Compilado"
+    },
+    {
+      "id": "curta",
+      "nome": "Curta"
+    },
+    {
+      "id": "cena",
+      "nome": "Cena"
+    },
+    {
+      "id": "gameplay",
+      "nome": "Gameplay"
+    },
+    {
+      "id": "analise",
+      "nome": "Análise"
+    },
+    {
+      "id": "review",
+      "nome": "Review"
+    },
+    {
+      "id": "trailer",
+      "nome": "Trailer"
+    },
+    {
+      "id": "teaser",
+      "nome": "Teaser"
+    },
+    {
+      "id": "clipe",
+      "nome": "Clipe"
+    },
+    {
+      "id": "documentario",
+      "nome": "Documentário"
+    },
+    {
+      "id": "tutorial",
+      "nome": "Tutorial"
+    },
+    {
+      "id": "entrevista",
+      "nome": "Entrevista"
+    },
+    {
+      "id": "live",
+      "nome": "Live"
+    },
+    {
+      "id": "short",
+      "nome": "Short"
+    }
+  ],
+  "generos_sugeridos": [
+    "Animação",
+    "Aventura",
+    "Comédia",
+    "Família",
+    "Fantasia",
+    "Ficção",
+    "Drama",
+    "Mistério",
+    "Romance",
+    "História",
+    "Tecnologia",
+    "Jogos",
+    "Simulação",
+    "Ônibus",
+    "Caminhões",
+    "Minecraft",
+    "GTA",
+    "ETS2"
+  ]
+}

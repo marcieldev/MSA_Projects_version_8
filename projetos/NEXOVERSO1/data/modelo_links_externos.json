@@ -1,0 +1,35 @@
+{
+  "filme": {
+    "id": "id-do-filme",
+    "midia": {
+      "tipo": "link",
+      "destino": "externo",
+      "formato": "link-externo",
+      "link": "https://seu-endereco/filme"
+    }
+  },
+  "episodio": {
+    "numero": 1,
+    "identificacao": null,
+    "exibir_thumbnail": true,
+    "temporada": 1,
+    "titulo": "Nome do episódio",
+    "midia": {
+      "tipo": "link",
+      "destino": "externo",
+      "formato": "link-externo",
+      "link": "https://www.youtube.com/playlist?list=ID_DA_PLAYLIST"
+    }
+  },
+  "fontes": [
+    {
+      "nome": "Matrix Gamers",
+      "link": "https://www.youtube.com/@SEU_CANAL_AQUI"
+    },
+    {
+      "nome": "Outro canal",
+      "link": "https://www.youtube.com/@SEU_CANAL_AQUI"
+    }
+  ],
+  "observacoes_fontes": "Use 'fontes' como lista de perfis/canais. Cada nome com link vira um link clicável. 'fonte' singular continua aceito para compatibilidade."
+}

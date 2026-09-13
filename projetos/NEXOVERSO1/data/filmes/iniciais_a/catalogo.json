@@ -1,0 +1,29 @@
+{
+  "tipo": "filme",
+  "itens": [
+    {
+      "id": "a-001",
+      "titulo": "A Cidade das Estrelas",
+      "ano": 2026,
+      "generos": [
+        "Drama",
+        "Ficção"
+      ],
+      "sinopse": "Um drama sobre escolhas, memória e novos começos.",
+      "classificacao": "12",
+      "imagem": "assets/img/poster-horizonte.svg",
+      "midia": {
+        "tipo": "link",
+        "destino": "externo",
+        "link": "",
+        "formato": "video/mp4"
+      },
+      "fonte": {
+        "provedor": "Biblioteca local autorizada",
+        "creditos": "Crédito da mídia: informe aqui a fonte/licença responsável pelo conteúdo.",
+        "nome": "Fonte da obra",
+        "link": ""
+      }
+    }
+  ]
+}

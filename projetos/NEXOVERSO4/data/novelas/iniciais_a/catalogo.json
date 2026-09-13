@@ -1,0 +1,43 @@
+{
+  "itens": [
+    {
+      "id": "a-301",
+      "titulo": "Além dos Caminhos",
+      "ano": 2026,
+      "generos": [
+        "Romance",
+        "Drama"
+      ],
+      "sinopse": "Duas famílias descobrem que seus destinos estão ligados há décadas.",
+      "classificacao": "12",
+      "imagem": "assets/img/poster-caminhos.svg",
+      "episodios": [
+        {
+          "numero": 1,
+          "titulo": "Reencontro",
+          "fonte": {
+            "nome": "Fonte da obra",
+            "link": ""
+          },
+          "midia": {
+            "tipo": "link",
+            "destino": "externo",
+            "link": "",
+            "plataforma": "externo"
+          },
+          "temporada": 1,
+          "subcategoria": "episodio"
+        }
+      ],
+      "fonte": {
+        "provedor": "Biblioteca local autorizada",
+        "creditos": "Crédito da mídia: informe aqui a fonte/licença responsável pelo conteúdo.",
+        "nome": "Fonte da obra",
+        "link": ""
+      },
+      "categoria": "programa_televisao",
+      "subcategoria": "episodio"
+    }
+  ],
+  "categoria": "programa_televisao"
+}

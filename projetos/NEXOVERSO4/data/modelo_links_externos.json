@@ -1,0 +1,40 @@
+{
+  "id": "id-legivel-estavel",
+  "categoria": "desenho",
+  "titulo": "Nome do conteúdo",
+  "midia": {
+    "plataforma": "youtube",
+    "tipo": "playlist",
+    "destino": "externo",
+    "link": "https://www.youtube.com/playlist?list=ID_DA_PLAYLIST"
+  },
+  "episodio": {
+    "numero": 1,
+    "temporada": 1,
+    "titulo": "Nome do episódio",
+    "midia": {
+      "plataforma": "youtube",
+      "tipo": "playlist",
+      "destino": "externo",
+      "link": "https://www.youtube.com/playlist?list=ID_DA_PLAYLIST"
+    },
+    "subcategoria": "episodio"
+  },
+  "fontes": [
+    {
+      "nome": "Matrix Gamers",
+      "link": "https://www.youtube.com/@SEU_CANAL_AQUI"
+    },
+    {
+      "nome": "Outro canal",
+      "link": "https://www.youtube.com/@SEU_CANAL_AQUI"
+    }
+  ],
+  "observacoes": [
+    "id é interno do NEXOVERSO e deve ser estável, legível e único; não é o ID do YouTube.",
+    "categoria define a família principal do conteúdo.",
+    "subcategoria refina a categoria e pode ser usada para filtros contextuais.",
+    "midia.plataforma/tipo descrevem o destino; o link não define sozinho o tipo editorial."
+  ],
+  "subcategoria": "episodio"
+}
